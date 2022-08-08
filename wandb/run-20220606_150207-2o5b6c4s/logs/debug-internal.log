@@ -1,0 +1,151 @@
+2022-06-06 15:02:14,549 INFO    MainThread:18 [internal.py:wandb_internal():90] W&B internal server running at pid: 18, started at: 2022-06-06 15:02:14.540603
+2022-06-06 15:02:14,570 DEBUG   SenderThread:18 [sender.py:send():232] send: header
+2022-06-06 15:02:14,571 DEBUG   SenderThread:18 [sender.py:send():232] send: run
+2022-06-06 15:02:14,579 INFO    WriterThread:18 [datastore.py:open_for_write():75] open: /vol0003/hp190122/data/users/u01961/working/deepL/transformer/timm_main_sora/wandb/run-20220606_150207-2o5b6c4s/run-2o5b6c4s.wandb
+2022-06-06 15:02:15,163 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: check_version
+2022-06-06 15:02:15,196 INFO    SenderThread:18 [dir_watcher.py:__init__():197] watching files in: /vol0003/hp190122/data/users/u01961/working/deepL/transformer/timm_main_sora/wandb/run-20220606_150207-2o5b6c4s/files
+2022-06-06 15:02:15,196 INFO    SenderThread:18 [sender.py:_start_run_threads():811] run started: 2o5b6c4s with start time 1654495327
+2022-06-06 15:02:15,196 DEBUG   SenderThread:18 [sender.py:send():232] send: summary
+2022-06-06 15:02:15,218 INFO    SenderThread:18 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-06 15:02:15,218 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: check_version
+2022-06-06 15:02:15,364 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: run_start
+2022-06-06 15:02:15,378 DEBUG   HandlerThread:18 [meta.py:__init__():35] meta init
+2022-06-06 15:02:15,379 DEBUG   HandlerThread:18 [meta.py:__init__():49] meta init done
+2022-06-06 15:02:15,379 DEBUG   HandlerThread:18 [meta.py:probe():209] probe
+2022-06-06 15:02:15,386 DEBUG   HandlerThread:18 [git.py:repo():29] git repository is invalid
+2022-06-06 15:02:15,386 DEBUG   HandlerThread:18 [meta.py:_save_pip():53] save pip
+2022-06-06 15:02:15,407 DEBUG   HandlerThread:18 [meta.py:_save_pip():67] save pip done
+2022-06-06 15:02:15,408 DEBUG   HandlerThread:18 [meta.py:probe():247] probe done
+2022-06-06 15:02:15,509 DEBUG   SenderThread:18 [sender.py:send():232] send: files
+2022-06-06 15:02:15,509 INFO    SenderThread:18 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-06-06 15:02:15,549 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:02:15,560 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:02:15,873 DEBUG   SenderThread:18 [sender.py:send():232] send: telemetry
+2022-06-06 15:02:16,207 INFO    Thread-7  :18 [dir_watcher.py:_on_file_created():244] file/dir created: /vol0003/hp190122/data/users/u01961/working/deepL/transformer/timm_main_sora/wandb/run-20220606_150207-2o5b6c4s/files/wandb-summary.json
+2022-06-06 15:02:16,208 INFO    Thread-7  :18 [dir_watcher.py:_on_file_created():244] file/dir created: /vol0003/hp190122/data/users/u01961/working/deepL/transformer/timm_main_sora/wandb/run-20220606_150207-2o5b6c4s/files/output.log
+2022-06-06 15:02:16,208 INFO    Thread-7  :18 [dir_watcher.py:_on_file_created():244] file/dir created: /vol0003/hp190122/data/users/u01961/working/deepL/transformer/timm_main_sora/wandb/run-20220606_150207-2o5b6c4s/files/wandb-metadata.json
+2022-06-06 15:02:16,209 INFO    Thread-7  :18 [dir_watcher.py:_on_file_created():244] file/dir created: /vol0003/hp190122/data/users/u01961/working/deepL/transformer/timm_main_sora/wandb/run-20220606_150207-2o5b6c4s/files/requirements.txt
+2022-06-06 15:02:16,378 INFO    Thread-11 :18 [upload_job.py:push():132] Uploaded file /home/hp190122/u01961/tmp8y3h8pltwandb/15zdkpgj-wandb-metadata.json
+2022-06-06 15:02:18,322 INFO    Thread-7  :18 [dir_watcher.py:_on_file_modified():257] file/dir modified: /vol0003/hp190122/data/users/u01961/working/deepL/transformer/timm_main_sora/wandb/run-20220606_150207-2o5b6c4s/files/output.log
+2022-06-06 15:02:20,325 INFO    Thread-7  :18 [dir_watcher.py:_on_file_modified():257] file/dir modified: /vol0003/hp190122/data/users/u01961/working/deepL/transformer/timm_main_sora/wandb/run-20220606_150207-2o5b6c4s/files/output.log
+2022-06-06 15:02:23,813 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-06 15:02:23,816 DEBUG   SenderThread:18 [sender.py:send():232] send: history
+2022-06-06 15:02:23,817 DEBUG   SenderThread:18 [sender.py:send():232] send: summary
+2022-06-06 15:02:23,826 INFO    SenderThread:18 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-06 15:02:24,457 INFO    Thread-7  :18 [dir_watcher.py:_on_file_modified():257] file/dir modified: /vol0003/hp190122/data/users/u01961/working/deepL/transformer/timm_main_sora/wandb/run-20220606_150207-2o5b6c4s/files/wandb-summary.json
+2022-06-06 15:02:26,462 INFO    Thread-7  :18 [dir_watcher.py:_on_file_modified():257] file/dir modified: /vol0003/hp190122/data/users/u01961/working/deepL/transformer/timm_main_sora/wandb/run-20220606_150207-2o5b6c4s/files/output.log
+2022-06-06 15:02:30,908 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:02:30,908 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:02:44,210 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:02:46,118 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:02:46,118 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:02:46,646 INFO    Thread-7  :18 [dir_watcher.py:_on_file_modified():257] file/dir modified: /vol0003/hp190122/data/users/u01961/working/deepL/transformer/timm_main_sora/wandb/run-20220606_150207-2o5b6c4s/files/config.yaml
+2022-06-06 15:03:01,324 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:03:01,325 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:03:14,585 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:03:16,537 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:03:16,538 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:03:31,800 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:03:31,801 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:03:45,002 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:03:47,034 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:03:47,034 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:04:02,393 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:04:02,394 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:04:15,300 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:04:17,790 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:04:17,790 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:04:33,234 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:04:33,244 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:04:45,693 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:04:48,594 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:04:48,595 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:05:04,054 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:05:04,064 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:05:16,032 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:05:19,395 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:05:19,396 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:05:34,788 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:05:34,789 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:05:46,393 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:05:50,100 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:05:50,100 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:06:05,332 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:06:05,333 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:06:06,800 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-06 15:06:06,802 DEBUG   SenderThread:18 [sender.py:send():232] send: history
+2022-06-06 15:06:06,802 DEBUG   SenderThread:18 [sender.py:send():232] send: summary
+2022-06-06 15:06:06,831 INFO    SenderThread:18 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-06 15:06:06,857 INFO    Thread-7  :18 [dir_watcher.py:_on_file_modified():257] file/dir modified: /vol0003/hp190122/data/users/u01961/working/deepL/transformer/timm_main_sora/wandb/run-20220606_150207-2o5b6c4s/files/wandb-summary.json
+2022-06-06 15:06:08,887 INFO    Thread-7  :18 [dir_watcher.py:_on_file_modified():257] file/dir modified: /vol0003/hp190122/data/users/u01961/working/deepL/transformer/timm_main_sora/wandb/run-20220606_150207-2o5b6c4s/files/output.log
+2022-06-06 15:06:16,799 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:06:20,560 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:06:20,560 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:06:35,798 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:06:35,799 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:06:47,096 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:06:51,012 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:06:51,014 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:07:06,229 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:07:06,232 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:07:17,410 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:07:21,454 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:07:21,454 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:07:36,681 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:07:36,682 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:07:47,733 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:07:51,903 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:07:51,903 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:08:07,113 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:08:07,113 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:08:18,009 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:08:22,370 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:08:22,370 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:08:37,616 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:08:37,616 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:08:48,315 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:08:52,884 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:08:52,885 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:09:08,235 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:09:08,235 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:09:18,608 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:09:23,592 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:09:23,592 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:09:38,990 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:09:38,991 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:09:48,970 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:09:53,760 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-06 15:09:53,761 DEBUG   SenderThread:18 [sender.py:send():232] send: history
+2022-06-06 15:09:53,764 DEBUG   SenderThread:18 [sender.py:send():232] send: summary
+2022-06-06 15:09:53,774 INFO    SenderThread:18 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-06-06 15:09:54,193 INFO    Thread-7  :18 [dir_watcher.py:_on_file_modified():257] file/dir modified: /vol0003/hp190122/data/users/u01961/working/deepL/transformer/timm_main_sora/wandb/run-20220606_150207-2o5b6c4s/files/wandb-summary.json
+2022-06-06 15:09:54,534 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:09:54,544 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:09:55,195 INFO    Thread-7  :18 [dir_watcher.py:_on_file_modified():257] file/dir modified: /vol0003/hp190122/data/users/u01961/working/deepL/transformer/timm_main_sora/wandb/run-20220606_150207-2o5b6c4s/files/output.log
+2022-06-06 15:10:09,884 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:10:09,885 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:10:19,296 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:10:25,189 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:10:25,190 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:10:40,568 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:10:40,568 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:10:49,611 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:10:55,812 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:10:55,815 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:11:11,113 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:11:11,113 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:11:19,877 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:11:26,318 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:11:26,319 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:11:41,538 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:11:41,538 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:11:50,180 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:11:56,751 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:11:56,751 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:12:11,963 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:12:11,964 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:12:20,458 DEBUG   SenderThread:18 [sender.py:send():232] send: stats
+2022-06-06 15:12:27,170 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:12:27,171 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status
+2022-06-06 15:12:42,381 DEBUG   HandlerThread:18 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-06 15:12:42,382 DEBUG   SenderThread:18 [sender.py:send_request():246] send_request: stop_status

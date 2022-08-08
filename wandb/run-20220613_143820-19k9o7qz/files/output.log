@@ -1,0 +1,1005 @@
+Model vit_deit_tiny_patch16_224 created, param count:5717416
+Data processing configuration for current model + dataset:
+	input_size: (3, 224, 224)
+	interpolation: bicubic
+	mean: (0.485, 0.456, 0.406)
+	std: (0.229, 0.224, 0.225)
+	crop_pct: 0.9
+AMP not enabled. Training in float32.
+Using native Torch DistributedDataParallel.
+=> Loading DataSet with WebDataset using .tars
+dataset_size:1281167, batch_size:8, world_size(Total Devices):2048
+----> Number of batches to be processed per CPU = 78
+iter per epoch: 78
+Scheduled iters: 7800
+Scheduled epochs: 100
+Train: 0 [   0/78 (  0%)]  Loss:  6.950778 (6.9508)  Time: 12.840s, 1276.05/s  (12.840s, 1276.05/s)  LR: 1.000e-04  Data: 5.362 (5.362)
+Reducer buckets have been rebuilt in this iteration.
+Train: 0 [  50/78 ( 65%)]  Loss:  6.797580 (6.8742)  Time: 1.382s, 11852.84/s  (2.020s, 8109.41/s)  LR: 1.641e-04  Data: 0.100 (0.334)
+Train: 0 [  77/78 (100%)]  Loss:  6.732255 (6.8269)  Time: 1.802s, 9092.99/s  (1.807s, 9069.44/s)  LR: 1.987e-04  Data: 0.227 (0.269)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-0.pth.tar', 6.826870918273926)
+			Total time per epoch: 142.30014122184366
+Train: 1 [   0/78 (  0%)]  Loss:  6.716193 (6.7162)  Time: 4.291s, 3817.89/s  (4.291s, 3817.89/s)  LR: 2.000e-04  Data: 1.711 (1.711)
+Train: 1 [  50/78 ( 65%)]  Loss:  6.639048 (6.6776)  Time: 1.359s, 12053.08/s  (1.784s, 9185.54/s)  LR: 2.641e-04  Data: 0.095 (0.278)
+Train: 1 [  77/78 (100%)]  Loss:  6.499870 (6.6184)  Time: 1.828s, 8960.58/s  (1.658s, 9884.69/s)  LR: 2.987e-04  Data: 0.204 (0.232)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-1.pth.tar', 6.6183702150980634)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-0.pth.tar', 6.826870918273926)
+			Total time per epoch: 130.18189963325858
+Train: 2 [   0/78 (  0%)]  Loss:  6.481454 (6.4815)  Time: 5.896s, 2778.68/s  (5.896s, 2778.68/s)  LR: 3.000e-04  Data: 0.809 (0.809)
+Train: 2 [  50/78 ( 65%)]  Loss:  6.382165 (6.4318)  Time: 1.352s, 12122.18/s  (1.825s, 8977.74/s)  LR: 3.641e-04  Data: 0.129 (0.225)
+Train: 2 [  77/78 (100%)]  Loss:  6.277072 (6.3802)  Time: 1.765s, 9281.34/s  (1.675s, 9782.90/s)  LR: 3.987e-04  Data: 0.150 (0.199)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-2.pth.tar', 6.38023058573405)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-1.pth.tar', 6.6183702150980634)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-0.pth.tar', 6.826870918273926)
+			Total time per epoch: 131.53270556684583
+Train: 3 [   0/78 (  0%)]  Loss:  6.304486 (6.3045)  Time: 5.470s, 2995.10/s  (5.470s, 2995.10/s)  LR: 4.000e-04  Data: 1.253 (1.253)
+Train: 3 [  50/78 ( 65%)]  Loss:  6.284686 (6.2946)  Time: 1.490s, 10998.94/s  (1.831s, 8950.55/s)  LR: 4.641e-04  Data: 0.111 (0.216)
+Train: 3 [  77/78 (100%)]  Loss:  6.166576 (6.2519)  Time: 1.822s, 8990.36/s  (1.688s, 9707.42/s)  LR: 4.987e-04  Data: 0.161 (0.189)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-3.pth.tar', 6.25191609064738)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-2.pth.tar', 6.38023058573405)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-1.pth.tar', 6.6183702150980634)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-0.pth.tar', 6.826870918273926)
+			Total time per epoch: 132.5869614938274
+Train: 4 [   0/78 (  0%)]  Loss:  6.191520 (6.1915)  Time: 5.582s, 2935.33/s  (5.582s, 2935.33/s)  LR: 5.000e-04  Data: 0.966 (0.966)
+Train: 4 [  50/78 ( 65%)]  Loss:  6.103951 (6.1477)  Time: 1.341s, 12218.15/s  (1.844s, 8884.92/s)  LR: 5.641e-04  Data: 0.128 (0.205)
+Train: 4 [  77/78 (100%)]  Loss:  6.128215 (6.1412)  Time: 1.879s, 8720.95/s  (1.693s, 9678.20/s)  LR: 5.987e-04  Data: 0.122 (0.186)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-4.pth.tar', 6.141228675842285)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-3.pth.tar', 6.25191609064738)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-2.pth.tar', 6.38023058573405)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-1.pth.tar', 6.6183702150980634)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-0.pth.tar', 6.826870918273926)
+			Total time per epoch: 132.891189054586
+Train: 5 [   0/78 (  0%)]  Loss:  6.208433 (6.2084)  Time: 5.603s, 2923.92/s  (5.603s, 2923.92/s)  LR: 5.964e-04  Data: 0.970 (0.970)
+Train: 5 [  50/78 ( 65%)]  Loss:  6.105669 (6.1571)  Time: 1.307s, 12533.04/s  (1.843s, 8888.74/s)  LR: 5.954e-04  Data: 0.103 (0.278)
+Train: 5 [  77/78 (100%)]  Loss:  5.958889 (6.0910)  Time: 1.818s, 9013.71/s  (1.696s, 9662.35/s)  LR: 5.948e-04  Data: 0.127 (0.234)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-5.pth.tar', 6.090996901194255)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-4.pth.tar', 6.141228675842285)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-3.pth.tar', 6.25191609064738)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-2.pth.tar', 6.38023058573405)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-1.pth.tar', 6.6183702150980634)
+			Total time per epoch: 133.5987356333062
+Train: 6 [   0/78 (  0%)]  Loss:  5.990011 (5.9900)  Time: 5.240s, 3126.66/s  (5.240s, 3126.66/s)  LR: 5.948e-04  Data: 1.915 (1.915)
+Train: 6 [  50/78 ( 65%)]  Loss:  6.099442 (6.0447)  Time: 1.385s, 11828.83/s  (1.834s, 8934.91/s)  LR: 5.936e-04  Data: 0.113 (0.220)
+Train: 6 [  77/78 (100%)]  Loss:  5.850165 (5.9799)  Time: 1.780s, 9203.67/s  (1.684s, 9729.41/s)  LR: 5.929e-04  Data: 0.139 (0.196)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-6.pth.tar', 5.979872703552246)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-5.pth.tar', 6.090996901194255)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-4.pth.tar', 6.141228675842285)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-3.pth.tar', 6.25191609064738)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-2.pth.tar', 6.38023058573405)
+			Total time per epoch: 132.26870871149004
+Train: 7 [   0/78 (  0%)]  Loss:  5.849073 (5.8491)  Time: 5.627s, 2911.82/s  (5.627s, 2911.82/s)  LR: 5.929e-04  Data: 0.943 (0.943)
+Train: 7 [  50/78 ( 65%)]  Loss:  5.794754 (5.8219)  Time: 1.347s, 12159.73/s  (1.840s, 8903.42/s)  LR: 5.915e-04  Data: 0.137 (0.217)
+Train: 7 [  77/78 (100%)]  Loss:  5.750617 (5.7981)  Time: 1.775s, 9228.61/s  (1.685s, 9723.86/s)  LR: 5.908e-04  Data: 0.143 (0.193)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-7.pth.tar', 5.798147996266683)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-6.pth.tar', 5.979872703552246)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-5.pth.tar', 6.090996901194255)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-4.pth.tar', 6.141228675842285)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-3.pth.tar', 6.25191609064738)
+			Total time per epoch: 132.37122107949108
+Train: 8 [   0/78 (  0%)]  Loss:  5.735108 (5.7351)  Time: 5.551s, 2951.38/s  (5.551s, 2951.38/s)  LR: 5.907e-04  Data: 0.820 (0.820)
+Train: 8 [  50/78 ( 65%)]  Loss:  5.693803 (5.7145)  Time: 1.366s, 11996.71/s  (1.830s, 8950.83/s)  LR: 5.892e-04  Data: 0.120 (0.242)
+Train: 8 [  77/78 (100%)]  Loss:  5.626805 (5.6852)  Time: 1.790s, 9154.37/s  (1.683s, 9735.22/s)  LR: 5.883e-04  Data: 0.183 (0.206)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-8.pth.tar', 5.685238520304362)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-7.pth.tar', 5.798147996266683)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-6.pth.tar', 5.979872703552246)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-5.pth.tar', 6.090996901194255)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-4.pth.tar', 6.141228675842285)
+			Total time per epoch: 132.20356048364192
+Train: 9 [   0/78 (  0%)]  Loss:  5.623595 (5.6236)  Time: 5.465s, 2997.86/s  (5.465s, 2997.86/s)  LR: 5.883e-04  Data: 0.989 (0.989)
+Train: 9 [  50/78 ( 65%)]  Loss:  5.587662 (5.6056)  Time: 1.341s, 12215.68/s  (1.840s, 8902.49/s)  LR: 5.866e-04  Data: 0.096 (0.255)
+Train: 9 [  77/78 (100%)]  Loss:  5.573621 (5.5950)  Time: 1.875s, 8737.60/s  (1.692s, 9683.20/s)  LR: 5.856e-04  Data: 0.175 (0.218)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-9.pth.tar', 5.594959259033203)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-8.pth.tar', 5.685238520304362)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-7.pth.tar', 5.798147996266683)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-6.pth.tar', 5.979872703552246)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-5.pth.tar', 6.090996901194255)
+			Total time per epoch: 133.06493606604636
+Train: 10 [   0/78 (  0%)]  Loss:  5.524246 (5.5242)  Time: 6.398s, 2560.97/s  (6.398s, 2560.97/s)  LR: 5.856e-04  Data: 2.432 (2.432)
+Train: 10 [  50/78 ( 65%)]  Loss:  5.475555 (5.4999)  Time: 1.326s, 12355.67/s  (1.842s, 8896.21/s)  LR: 5.837e-04  Data: 0.103 (0.254)
+Train: 10 [  77/78 (100%)]  Loss:  5.431107 (5.4770)  Time: 1.853s, 8840.14/s  (1.689s, 9697.69/s)  LR: 5.826e-04  Data: 0.145 (0.214)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-10.pth.tar', 5.476969559987386)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-9.pth.tar', 5.594959259033203)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-8.pth.tar', 5.685238520304362)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-7.pth.tar', 5.798147996266683)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-6.pth.tar', 5.979872703552246)
+			Total time per epoch: 133.3912950148806
+Train: 11 [   0/78 (  0%)]  Loss:  5.413314 (5.4133)  Time: 5.972s, 2743.69/s  (5.972s, 2743.69/s)  LR: 5.826e-04  Data: 2.457 (2.457)
+Train: 11 [  50/78 ( 65%)]  Loss:  5.385659 (5.3995)  Time: 1.350s, 12135.40/s  (1.848s, 8864.04/s)  LR: 5.805e-04  Data: 0.134 (0.218)
+Train: 11 [  77/78 (100%)]  Loss:  5.360373 (5.3864)  Time: 1.734s, 9447.41/s  (1.693s, 9678.97/s)  LR: 5.793e-04  Data: 0.300 (0.196)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-11.pth.tar', 5.386448860168457)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-10.pth.tar', 5.476969559987386)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-9.pth.tar', 5.594959259033203)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-8.pth.tar', 5.685238520304362)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-7.pth.tar', 5.798147996266683)
+			Total time per epoch: 132.89936950895935
+Train: 12 [   0/78 (  0%)]  Loss:  5.365141 (5.3651)  Time: 5.733s, 2857.99/s  (5.733s, 2857.99/s)  LR: 5.793e-04  Data: 1.335 (1.335)
+Train: 12 [  50/78 ( 65%)]  Loss:  5.313646 (5.3394)  Time: 1.323s, 12382.27/s  (1.818s, 9012.37/s)  LR: 5.770e-04  Data: 0.116 (0.186)
+Train: 12 [  77/78 (100%)]  Loss:  5.248781 (5.3092)  Time: 1.798s, 9112.19/s  (1.681s, 9748.97/s)  LR: 5.758e-04  Data: 0.138 (0.175)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-12.pth.tar', 5.309189319610596)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-11.pth.tar', 5.386448860168457)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-10.pth.tar', 5.476969559987386)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-9.pth.tar', 5.594959259033203)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-8.pth.tar', 5.685238520304362)
+			Total time per epoch: 131.9573940206319
+Train: 13 [   0/78 (  0%)]  Loss:  5.236735 (5.2367)  Time: 5.557s, 2948.35/s  (5.557s, 2948.35/s)  LR: 5.757e-04  Data: 0.768 (0.768)
+Train: 13 [  50/78 ( 65%)]  Loss:  5.228922 (5.2328)  Time: 1.313s, 12474.90/s  (1.813s, 9037.44/s)  LR: 5.733e-04  Data: 0.128 (0.195)
+Train: 13 [  77/78 (100%)]  Loss:  5.140912 (5.2022)  Time: 1.753s, 9345.59/s  (1.675s, 9780.90/s)  LR: 5.720e-04  Data: 0.130 (0.178)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-13.pth.tar', 5.202189604441325)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-12.pth.tar', 5.309189319610596)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-11.pth.tar', 5.386448860168457)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-10.pth.tar', 5.476969559987386)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-9.pth.tar', 5.594959259033203)
+			Total time per epoch: 131.52081819064915
+Train: 14 [   0/78 (  0%)]  Loss:  5.146566 (5.1466)  Time: 5.633s, 2908.46/s  (5.633s, 2908.46/s)  LR: 5.719e-04  Data: 0.882 (0.882)
+Train: 14 [  50/78 ( 65%)]  Loss:  5.147856 (5.1472)  Time: 1.356s, 12083.52/s  (1.803s, 9084.68/s)  LR: 5.693e-04  Data: 0.117 (0.216)
+Train: 14 [  77/78 (100%)]  Loss:  5.089783 (5.1281)  Time: 1.800s, 9102.91/s  (1.664s, 9845.76/s)  LR: 5.679e-04  Data: 0.193 (0.192)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-14.pth.tar', 5.128068288167317)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-13.pth.tar', 5.202189604441325)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-12.pth.tar', 5.309189319610596)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-11.pth.tar', 5.386448860168457)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-10.pth.tar', 5.476969559987386)
+			Total time per epoch: 130.7409961046651
+Train: 15 [   0/78 (  0%)]  Loss:  5.104745 (5.1047)  Time: 5.376s, 3047.66/s  (5.376s, 3047.66/s)  LR: 5.678e-04  Data: 1.456 (1.456)
+Train: 15 [  50/78 ( 65%)]  Loss:  5.069707 (5.0872)  Time: 1.358s, 12062.72/s  (1.793s, 9135.91/s)  LR: 5.651e-04  Data: 0.090 (0.250)
+Train: 15 [  77/78 (100%)]  Loss:  4.994741 (5.0564)  Time: 1.792s, 9143.38/s  (1.662s, 9855.97/s)  LR: 5.636e-04  Data: 0.131 (0.217)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-15.pth.tar', 5.056397914886475)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-14.pth.tar', 5.128068288167317)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-13.pth.tar', 5.202189604441325)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-12.pth.tar', 5.309189319610596)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-11.pth.tar', 5.386448860168457)
+			Total time per epoch: 130.73365026339889
+Train: 16 [   0/78 (  0%)]  Loss:  5.010338 (5.0103)  Time: 5.422s, 3021.84/s  (5.422s, 3021.84/s)  LR: 5.635e-04  Data: 1.627 (1.627)
+Train: 16 [  50/78 ( 65%)]  Loss:  5.012631 (5.0115)  Time: 1.346s, 12171.24/s  (1.820s, 9000.43/s)  LR: 5.606e-04  Data: 0.095 (0.301)
+Train: 16 [  77/78 (100%)]  Loss:  4.932441 (4.9851)  Time: 1.708s, 9591.81/s  (1.678s, 9763.59/s)  LR: 5.590e-04  Data: 0.125 (0.249)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-16.pth.tar', 4.98513666788737)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-15.pth.tar', 5.056397914886475)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-14.pth.tar', 5.128068288167317)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-13.pth.tar', 5.202189604441325)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-12.pth.tar', 5.309189319610596)
+			Total time per epoch: 132.14640663936734
+Train: 17 [   0/78 (  0%)]  Loss:  4.971013 (4.9710)  Time: 5.539s, 2957.86/s  (5.539s, 2957.86/s)  LR: 5.589e-04  Data: 1.720 (1.720)
+Train: 17 [  50/78 ( 65%)]  Loss:  4.873674 (4.9223)  Time: 1.377s, 11898.70/s  (1.806s, 9073.77/s)  LR: 5.558e-04  Data: 0.097 (0.201)
+Train: 17 [  77/78 (100%)]  Loss:  4.887547 (4.9107)  Time: 1.856s, 8829.56/s  (1.670s, 9809.76/s)  LR: 5.541e-04  Data: 0.139 (0.178)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-17.pth.tar', 4.910744349161784)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-16.pth.tar', 4.98513666788737)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-15.pth.tar', 5.056397914886475)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-14.pth.tar', 5.128068288167317)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-13.pth.tar', 5.202189604441325)
+			Total time per epoch: 131.2909090705216
+Train: 18 [   0/78 (  0%)]  Loss:  4.896291 (4.8963)  Time: 5.483s, 2987.88/s  (5.483s, 2987.88/s)  LR: 5.541e-04  Data: 1.587 (1.587)
+Train: 18 [  50/78 ( 65%)]  Loss:  4.839147 (4.8677)  Time: 1.363s, 12024.58/s  (1.787s, 9170.39/s)  LR: 5.508e-04  Data: 0.116 (0.252)
+Train: 18 [  77/78 (100%)]  Loss:  4.783381 (4.8396)  Time: 1.790s, 9153.10/s  (1.651s, 9921.32/s)  LR: 5.491e-04  Data: 0.135 (0.211)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-18.pth.tar', 4.8396064440409345)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-17.pth.tar', 4.910744349161784)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-16.pth.tar', 4.98513666788737)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-15.pth.tar', 5.056397914886475)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-14.pth.tar', 5.128068288167317)
+			Total time per epoch: 129.66422565560788
+Train: 19 [   0/78 (  0%)]  Loss:  4.804096 (4.8041)  Time: 5.515s, 2971.04/s  (5.515s, 2971.04/s)  LR: 5.490e-04  Data: 1.211 (1.211)
+Train: 19 [  50/78 ( 65%)]  Loss:  4.753786 (4.7789)  Time: 1.337s, 12255.95/s  (1.787s, 9170.98/s)  LR: 5.456e-04  Data: 0.103 (0.221)
+Train: 19 [  77/78 (100%)]  Loss:  4.731671 (4.7632)  Time: 1.801s, 9097.82/s  (1.656s, 9895.71/s)  LR: 5.437e-04  Data: 0.147 (0.197)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-19.pth.tar', 4.763184070587158)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-18.pth.tar', 4.8396064440409345)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-17.pth.tar', 4.910744349161784)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-16.pth.tar', 4.98513666788737)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-15.pth.tar', 5.056397914886475)
+			Total time per epoch: 129.99305070750415
+Train: 20 [   0/78 (  0%)]  Loss:  4.725142 (4.7251)  Time: 5.712s, 2868.56/s  (5.712s, 2868.56/s)  LR: 5.437e-04  Data: 1.192 (1.192)
+Train: 20 [  50/78 ( 65%)]  Loss:  4.752457 (4.7388)  Time: 1.377s, 11897.28/s  (1.792s, 9144.65/s)  LR: 5.401e-04  Data: 0.105 (0.249)
+Train: 20 [  77/78 (100%)]  Loss:  4.650541 (4.7094)  Time: 1.773s, 9242.82/s  (1.656s, 9895.66/s)  LR: 5.382e-04  Data: 0.134 (0.208)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-20.pth.tar', 4.709379990895589)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-19.pth.tar', 4.763184070587158)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-18.pth.tar', 4.8396064440409345)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-17.pth.tar', 4.910744349161784)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-16.pth.tar', 4.98513666788737)
+			Total time per epoch: 131.12823613733053
+Train: 21 [   0/78 (  0%)]  Loss:  4.670408 (4.6704)  Time: 4.617s, 3548.88/s  (4.617s, 3548.88/s)  LR: 5.381e-04  Data: 1.871 (1.871)
+Train: 21 [  50/78 ( 65%)]  Loss:  4.661146 (4.6658)  Time: 1.340s, 12230.60/s  (1.773s, 9239.93/s)  LR: 5.344e-04  Data: 0.142 (0.219)
+Train: 21 [  77/78 (100%)]  Loss:  4.610865 (4.6475)  Time: 1.687s, 9711.62/s  (1.641s, 9985.02/s)  LR: 5.324e-04  Data: 0.376 (0.197)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-21.pth.tar', 4.647472858428955)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-20.pth.tar', 4.709379990895589)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-19.pth.tar', 4.763184070587158)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-18.pth.tar', 4.8396064440409345)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-17.pth.tar', 4.910744349161784)
+			Total time per epoch: 129.22695837169886
+Train: 22 [   0/78 (  0%)]  Loss:  4.636962 (4.6370)  Time: 5.017s, 3265.37/s  (5.017s, 3265.37/s)  LR: 5.323e-04  Data: 2.010 (2.010)
+Train: 22 [  50/78 ( 65%)]  Loss:  4.652038 (4.6445)  Time: 1.326s, 12354.90/s  (1.773s, 9240.30/s)  LR: 5.285e-04  Data: 0.116 (0.214)
+Train: 22 [  77/78 (100%)]  Loss:  4.584111 (4.6244)  Time: 1.730s, 9468.22/s  (1.645s, 9957.97/s)  LR: 5.264e-04  Data: 0.323 (0.191)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-22.pth.tar', 4.624370416005452)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-21.pth.tar', 4.647472858428955)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-20.pth.tar', 4.709379990895589)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-19.pth.tar', 4.763184070587158)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-18.pth.tar', 4.8396064440409345)
+			Total time per epoch: 129.1606558561325
+Train: 23 [   0/78 (  0%)]  Loss:  4.582374 (4.5824)  Time: 5.529s, 2963.05/s  (5.529s, 2963.05/s)  LR: 5.263e-04  Data: 0.970 (0.970)
+Train: 23 [  50/78 ( 65%)]  Loss:  4.580579 (4.5815)  Time: 1.337s, 12251.86/s  (1.802s, 9093.50/s)  LR: 5.223e-04  Data: 0.108 (0.220)
+Train: 23 [  77/78 (100%)]  Loss:  4.527585 (4.5635)  Time: 1.776s, 9227.64/s  (1.664s, 9848.76/s)  LR: 5.201e-04  Data: 0.150 (0.193)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-23.pth.tar', 4.563512484232585)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-22.pth.tar', 4.624370416005452)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-21.pth.tar', 4.647472858428955)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-20.pth.tar', 4.709379990895589)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-19.pth.tar', 4.763184070587158)
+			Total time per epoch: 130.60322619136423
+Train: 24 [   0/78 (  0%)]  Loss:  4.501319 (4.5013)  Time: 5.640s, 2904.77/s  (5.640s, 2904.77/s)  LR: 5.200e-04  Data: 0.777 (0.777)
+Train: 24 [  50/78 ( 65%)]  Loss:  4.524631 (4.5130)  Time: 1.378s, 11889.24/s  (1.797s, 9118.26/s)  LR: 5.159e-04  Data: 0.114 (0.248)
+Train: 24 [  77/78 (100%)]  Loss:  4.487674 (4.5045)  Time: 1.827s, 8969.52/s  (1.658s, 9882.13/s)  LR: 5.137e-04  Data: 0.129 (0.207)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-24.pth.tar', 4.504541238149007)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-23.pth.tar', 4.563512484232585)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-22.pth.tar', 4.624370416005452)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-21.pth.tar', 4.647472858428955)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-20.pth.tar', 4.709379990895589)
+			Total time per epoch: 130.13374583236873
+Train: 25 [   0/78 (  0%)]  Loss:  4.502222 (4.5022)  Time: 5.645s, 2902.50/s  (5.645s, 2902.50/s)  LR: 5.136e-04  Data: 1.056 (1.056)
+Train: 25 [  50/78 ( 65%)]  Loss:  4.515605 (4.5089)  Time: 1.348s, 12150.77/s  (1.804s, 9082.35/s)  LR: 5.094e-04  Data: 0.122 (0.194)
+Train: 25 [  77/78 (100%)]  Loss:  4.434162 (4.4840)  Time: 1.777s, 9217.78/s  (1.661s, 9861.93/s)  LR: 5.070e-04  Data: 0.265 (0.181)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-25.pth.tar', 4.483996391296387)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-24.pth.tar', 4.504541238149007)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-23.pth.tar', 4.563512484232585)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-22.pth.tar', 4.624370416005452)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-21.pth.tar', 4.647472858428955)
+			Total time per epoch: 130.59696849808097
+Train: 26 [   0/78 (  0%)]  Loss:  4.451336 (4.4513)  Time: 5.524s, 2965.79/s  (5.524s, 2965.79/s)  LR: 5.069e-04  Data: 1.630 (1.630)
+Train: 26 [  50/78 ( 65%)]  Loss:  4.602896 (4.5271)  Time: 1.319s, 12421.65/s  (1.790s, 9154.75/s)  LR: 5.026e-04  Data: 0.164 (0.209)
+Train: 26 [  77/78 (100%)]  Loss:  4.422743 (4.4923)  Time: 1.811s, 9049.15/s  (1.654s, 9904.77/s)  LR: 5.002e-04  Data: 0.282 (0.189)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-25.pth.tar', 4.483996391296387)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-26.pth.tar', 4.492325146993001)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-24.pth.tar', 4.504541238149007)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-23.pth.tar', 4.563512484232585)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-22.pth.tar', 4.624370416005452)
+			Total time per epoch: 130.19086270593107
+Train: 27 [   0/78 (  0%)]  Loss:  4.456841 (4.4568)  Time: 5.106s, 3208.70/s  (5.106s, 3208.70/s)  LR: 5.001e-04  Data: 1.894 (1.894)
+Train: 27 [  50/78 ( 65%)]  Loss:  4.416284 (4.4366)  Time: 1.369s, 11968.99/s  (1.784s, 9183.23/s)  LR: 4.956e-04  Data: 0.111 (0.223)
+Train: 27 [  77/78 (100%)]  Loss:  4.388180 (4.4204)  Time: 1.791s, 9147.12/s  (1.658s, 9880.95/s)  LR: 4.931e-04  Data: 0.147 (0.197)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-27.pth.tar', 4.420435110727946)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-25.pth.tar', 4.483996391296387)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-26.pth.tar', 4.492325146993001)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-24.pth.tar', 4.504541238149007)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-23.pth.tar', 4.563512484232585)
+			Total time per epoch: 130.5717808501795
+Train: 28 [   0/78 (  0%)]  Loss:  4.379197 (4.3792)  Time: 5.177s, 3164.67/s  (5.177s, 3164.67/s)  LR: 4.930e-04  Data: 1.917 (1.917)
+Train: 28 [  50/78 ( 65%)]  Loss:  4.378027 (4.3786)  Time: 1.285s, 12745.28/s  (1.785s, 9176.23/s)  LR: 4.884e-04  Data: 0.146 (0.231)
+Train: 28 [  77/78 (100%)]  Loss:  4.333858 (4.3637)  Time: 1.844s, 8883.51/s  (1.653s, 9913.84/s)  LR: 4.859e-04  Data: 0.151 (0.208)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-28.pth.tar', 4.363693873087565)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-27.pth.tar', 4.420435110727946)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-25.pth.tar', 4.483996391296387)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-26.pth.tar', 4.492325146993001)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-24.pth.tar', 4.504541238149007)
+			Total time per epoch: 129.67834980785847
+Train: 29 [   0/78 (  0%)]  Loss:  4.344668 (4.3447)  Time: 5.537s, 2959.13/s  (5.537s, 2959.13/s)  LR: 4.858e-04  Data: 0.804 (0.804)
+Train: 29 [  50/78 ( 65%)]  Loss:  4.341307 (4.3430)  Time: 1.354s, 12097.21/s  (1.785s, 9179.47/s)  LR: 4.811e-04  Data: 0.122 (0.208)
+Train: 29 [  77/78 (100%)]  Loss:  4.305454 (4.3305)  Time: 1.852s, 8846.88/s  (1.657s, 9887.18/s)  LR: 4.785e-04  Data: 0.145 (0.181)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-29.pth.tar', 4.330476442972819)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-28.pth.tar', 4.363693873087565)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-27.pth.tar', 4.420435110727946)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-25.pth.tar', 4.483996391296387)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-26.pth.tar', 4.492325146993001)
+			Total time per epoch: 130.08533643744886
+Train: 30 [   0/78 (  0%)]  Loss:  4.292617 (4.2926)  Time: 5.468s, 2996.20/s  (5.468s, 2996.20/s)  LR: 4.784e-04  Data: 0.869 (0.869)
+Train: 30 [  50/78 ( 65%)]  Loss:  4.311316 (4.3020)  Time: 1.327s, 12348.26/s  (1.794s, 9135.19/s)  LR: 4.736e-04  Data: 0.119 (0.209)
+Train: 30 [  77/78 (100%)]  Loss:  4.267446 (4.2905)  Time: 1.899s, 8628.18/s  (1.657s, 9887.87/s)  LR: 4.709e-04  Data: 0.170 (0.190)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-30.pth.tar', 4.290459314982097)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-29.pth.tar', 4.330476442972819)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-28.pth.tar', 4.363693873087565)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-27.pth.tar', 4.420435110727946)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-25.pth.tar', 4.483996391296387)
+			Total time per epoch: 130.26169749442488
+Train: 31 [   0/78 (  0%)]  Loss:  4.272944 (4.2729)  Time: 5.153s, 3179.50/s  (5.153s, 3179.50/s)  LR: 4.708e-04  Data: 1.709 (1.709)
+Train: 31 [  50/78 ( 65%)]  Loss:  4.258616 (4.2658)  Time: 1.327s, 12349.69/s  (1.787s, 9169.39/s)  LR: 4.659e-04  Data: 0.113 (0.242)
+Train: 31 [  77/78 (100%)]  Loss:  4.225740 (4.2524)  Time: 1.817s, 9018.67/s  (1.654s, 9902.72/s)  LR: 4.632e-04  Data: 0.112 (0.207)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-31.pth.tar', 4.252433617909749)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-30.pth.tar', 4.290459314982097)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-29.pth.tar', 4.330476442972819)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-28.pth.tar', 4.363693873087565)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-27.pth.tar', 4.420435110727946)
+			Total time per epoch: 129.8282638406381
+Train: 32 [   0/78 (  0%)]  Loss:  4.264634 (4.2646)  Time: 5.624s, 2913.11/s  (5.624s, 2913.11/s)  LR: 4.631e-04  Data: 1.354 (1.354)
+Train: 32 [  50/78 ( 65%)]  Loss:  4.246548 (4.2556)  Time: 1.382s, 11853.54/s  (1.783s, 9186.45/s)  LR: 4.580e-04  Data: 0.120 (0.217)
+Train: 32 [  77/78 (100%)]  Loss:  4.204918 (4.2387)  Time: 1.751s, 9358.82/s  (1.656s, 9891.23/s)  LR: 4.553e-04  Data: 0.206 (0.193)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-32.pth.tar', 4.238699913024902)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-31.pth.tar', 4.252433617909749)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-30.pth.tar', 4.290459314982097)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-29.pth.tar', 4.330476442972819)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-28.pth.tar', 4.363693873087565)
+			Total time per epoch: 130.4269484123215
+Train: 33 [   0/78 (  0%)]  Loss:  4.207830 (4.2078)  Time: 5.138s, 3188.60/s  (5.138s, 3188.60/s)  LR: 4.552e-04  Data: 1.922 (1.922)
+Train: 33 [  50/78 ( 65%)]  Loss:  4.221448 (4.2146)  Time: 1.369s, 11965.38/s  (1.784s, 9185.56/s)  LR: 4.500e-04  Data: 0.119 (0.220)
+Train: 33 [  77/78 (100%)]  Loss:  4.167614 (4.1990)  Time: 1.715s, 9552.25/s  (1.652s, 9916.76/s)  LR: 4.472e-04  Data: 0.178 (0.194)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-33.pth.tar', 4.1989641189575195)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-32.pth.tar', 4.238699913024902)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-31.pth.tar', 4.252433617909749)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-30.pth.tar', 4.290459314982097)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-29.pth.tar', 4.330476442972819)
+			Total time per epoch: 129.71736837550998
+Train: 34 [   0/78 (  0%)]  Loss:  4.168196 (4.1682)  Time: 5.479s, 2990.23/s  (5.479s, 2990.23/s)  LR: 4.471e-04  Data: 1.230 (1.230)
+Train: 34 [  50/78 ( 65%)]  Loss:  4.155860 (4.1620)  Time: 1.349s, 12145.62/s  (1.788s, 9164.80/s)  LR: 4.419e-04  Data: 0.094 (0.232)
+Train: 34 [  77/78 (100%)]  Loss:  4.146398 (4.1568)  Time: 1.753s, 9344.31/s  (1.653s, 9912.90/s)  LR: 4.390e-04  Data: 0.162 (0.200)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-34.pth.tar', 4.15681791305542)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-33.pth.tar', 4.1989641189575195)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-32.pth.tar', 4.238699913024902)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-31.pth.tar', 4.252433617909749)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-30.pth.tar', 4.290459314982097)
+			Total time per epoch: 129.70518048666418
+Train: 35 [   0/78 (  0%)]  Loss:  4.154701 (4.1547)  Time: 5.559s, 2947.49/s  (5.559s, 2947.49/s)  LR: 4.389e-04  Data: 0.948 (0.948)
+Train: 35 [  50/78 ( 65%)]  Loss:  4.160871 (4.1578)  Time: 1.369s, 11964.52/s  (1.785s, 9180.28/s)  LR: 4.336e-04  Data: 0.094 (0.187)
+Train: 35 [  77/78 (100%)]  Loss:  4.178584 (4.1647)  Time: 1.949s, 8407.99/s  (1.654s, 9906.02/s)  LR: 4.307e-04  Data: 0.164 (0.170)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-34.pth.tar', 4.15681791305542)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-35.pth.tar', 4.164718310038249)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-33.pth.tar', 4.1989641189575195)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-32.pth.tar', 4.238699913024902)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-31.pth.tar', 4.252433617909749)
+			Total time per epoch: 129.89503270480782
+Train: 36 [   0/78 (  0%)]  Loss:  4.161779 (4.1618)  Time: 5.300s, 3091.52/s  (5.300s, 3091.52/s)  LR: 4.306e-04  Data: 1.400 (1.400)
+Train: 36 [  50/78 ( 65%)]  Loss:  4.132265 (4.1470)  Time: 1.335s, 12271.35/s  (1.783s, 9190.17/s)  LR: 4.252e-04  Data: 0.145 (0.241)
+Train: 36 [  77/78 (100%)]  Loss:  4.106647 (4.1336)  Time: 1.842s, 8892.39/s  (1.654s, 9904.21/s)  LR: 4.223e-04  Data: 0.151 (0.205)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-36.pth.tar', 4.133563836415608)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-34.pth.tar', 4.15681791305542)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-35.pth.tar', 4.164718310038249)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-33.pth.tar', 4.1989641189575195)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-32.pth.tar', 4.238699913024902)
+			Total time per epoch: 129.80160135030746
+Train: 37 [   0/78 (  0%)]  Loss:  4.132283 (4.1323)  Time: 5.484s, 2987.39/s  (5.484s, 2987.39/s)  LR: 4.222e-04  Data: 0.855 (0.855)
+Train: 37 [  50/78 ( 65%)]  Loss:  4.112953 (4.1226)  Time: 1.365s, 11999.68/s  (1.789s, 9159.68/s)  LR: 4.167e-04  Data: 0.106 (0.171)
+Train: 37 [  77/78 (100%)]  Loss:  4.081530 (4.1089)  Time: 1.770s, 9255.78/s  (1.655s, 9899.62/s)  LR: 4.137e-04  Data: 0.148 (0.158)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-37.pth.tar', 4.108922004699707)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-36.pth.tar', 4.133563836415608)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-34.pth.tar', 4.15681791305542)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-35.pth.tar', 4.164718310038249)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-33.pth.tar', 4.1989641189575195)
+			Total time per epoch: 130.3361326828599
+Train: 38 [   0/78 (  0%)]  Loss:  4.056486 (4.0565)  Time: 5.100s, 3212.65/s  (5.100s, 3212.65/s)  LR: 4.136e-04  Data: 1.937 (1.937)
+Train: 38 [  50/78 ( 65%)]  Loss:  4.104814 (4.0806)  Time: 1.364s, 12014.00/s  (1.781s, 9201.90/s)  LR: 4.081e-04  Data: 0.122 (0.256)
+Train: 38 [  77/78 (100%)]  Loss:  4.053305 (4.0715)  Time: 1.852s, 8845.51/s  (1.650s, 9929.05/s)  LR: 4.050e-04  Data: 0.219 (0.219)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-38.pth.tar', 4.071534792582194)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-37.pth.tar', 4.108922004699707)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-36.pth.tar', 4.133563836415608)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-34.pth.tar', 4.15681791305542)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-35.pth.tar', 4.164718310038249)
+			Total time per epoch: 129.55873712990433
+Train: 39 [   0/78 (  0%)]  Loss:  4.096261 (4.0963)  Time: 5.437s, 3013.38/s  (5.437s, 3013.38/s)  LR: 4.049e-04  Data: 1.427 (1.427)
+Train: 39 [  50/78 ( 65%)]  Loss:  4.072829 (4.0845)  Time: 1.375s, 11913.51/s  (1.781s, 9200.38/s)  LR: 3.993e-04  Data: 0.104 (0.221)
+Train: 39 [  77/78 (100%)]  Loss:  4.042276 (4.0705)  Time: 1.759s, 9312.94/s  (1.648s, 9938.87/s)  LR: 3.963e-04  Data: 0.182 (0.192)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-39.pth.tar', 4.070455392201741)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-38.pth.tar', 4.071534792582194)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-37.pth.tar', 4.108922004699707)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-36.pth.tar', 4.133563836415608)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-34.pth.tar', 4.15681791305542)
+			Total time per epoch: 129.4062459981069
+Train: 40 [   0/78 (  0%)]  Loss:  4.031781 (4.0318)  Time: 5.541s, 2957.13/s  (5.541s, 2957.13/s)  LR: 3.962e-04  Data: 0.899 (0.899)
+Train: 40 [  50/78 ( 65%)]  Loss:  4.067566 (4.0497)  Time: 1.388s, 11804.29/s  (1.784s, 9183.20/s)  LR: 3.905e-04  Data: 0.082 (0.236)
+Train: 40 [  77/78 (100%)]  Loss:  4.007368 (4.0356)  Time: 2.271s, 7215.86/s  (1.664s, 9843.81/s)  LR: 3.874e-04  Data: 0.246 (0.211)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-40.pth.tar', 4.035571575164795)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-39.pth.tar', 4.070455392201741)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-38.pth.tar', 4.071534792582194)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-37.pth.tar', 4.108922004699707)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-36.pth.tar', 4.133563836415608)
+			Total time per epoch: 131.08900807984173
+Train: 41 [   0/78 (  0%)]  Loss:  4.037040 (4.0370)  Time: 5.221s, 3137.82/s  (5.221s, 3137.82/s)  LR: 3.873e-04  Data: 1.759 (1.759)
+Train: 41 [  50/78 ( 65%)]  Loss:  4.000382 (4.0187)  Time: 1.316s, 12445.14/s  (1.780s, 9201.95/s)  LR: 3.816e-04  Data: 0.098 (0.213)
+Train: 41 [  77/78 (100%)]  Loss:  4.034831 (4.0241)  Time: 2.658s, 6163.10/s  (1.671s, 9805.11/s)  LR: 3.785e-04  Data: 0.125 (0.189)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-41.pth.tar', 4.024084409077962)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-40.pth.tar', 4.035571575164795)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-39.pth.tar', 4.070455392201741)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-38.pth.tar', 4.071534792582194)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-37.pth.tar', 4.108922004699707)
+			Total time per epoch: 131.71888997219503
+Train: 42 [   0/78 (  0%)]  Loss:  3.997227 (3.9972)  Time: 8.354s, 1961.18/s  (8.354s, 1961.18/s)  LR: 3.784e-04  Data: 2.697 (2.697)
+Train: 42 [  50/78 ( 65%)]  Loss:  4.032643 (4.0149)  Time: 1.342s, 12208.73/s  (1.829s, 8958.60/s)  LR: 3.726e-04  Data: 0.129 (0.239)
+Train: 42 [  77/78 (100%)]  Loss:  3.969792 (3.9999)  Time: 1.765s, 9284.54/s  (1.682s, 9740.55/s)  LR: 3.695e-04  Data: 0.166 (0.207)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-42.pth.tar', 3.999887228012085)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-41.pth.tar', 4.024084409077962)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-40.pth.tar', 4.035571575164795)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-39.pth.tar', 4.070455392201741)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-38.pth.tar', 4.071534792582194)
+			Total time per epoch: 132.18781867995858
+Train: 43 [   0/78 (  0%)]  Loss:  3.980313 (3.9803)  Time: 5.093s, 3216.79/s  (5.093s, 3216.79/s)  LR: 3.694e-04  Data: 1.759 (1.759)
+Train: 43 [  50/78 ( 65%)]  Loss:  3.964024 (3.9722)  Time: 1.353s, 12106.19/s  (1.758s, 9319.73/s)  LR: 3.635e-04  Data: 0.116 (0.229)
+Train: 43 [  77/78 (100%)]  Loss:  3.960196 (3.9682)  Time: 1.783s, 9190.62/s  (1.639s, 9994.95/s)  LR: 3.604e-04  Data: 0.141 (0.199)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-43.pth.tar', 3.9681777159372964)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-42.pth.tar', 3.999887228012085)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-41.pth.tar', 4.024084409077962)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-40.pth.tar', 4.035571575164795)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-39.pth.tar', 4.070455392201741)
+			Total time per epoch: 128.69835661631078
+Train: 44 [   0/78 (  0%)]  Loss:  3.967545 (3.9675)  Time: 5.478s, 2990.97/s  (5.478s, 2990.97/s)  LR: 3.603e-04  Data: 0.875 (0.875)
+Train: 44 [  50/78 ( 65%)]  Loss:  3.950416 (3.9590)  Time: 1.351s, 12124.58/s  (1.787s, 9165.98/s)  LR: 3.544e-04  Data: 0.128 (0.192)
+Train: 44 [  77/78 (100%)]  Loss:  3.920356 (3.9461)  Time: 1.944s, 8428.54/s  (1.654s, 9904.47/s)  LR: 3.513e-04  Data: 0.155 (0.175)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-44.pth.tar', 3.946105639139811)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-43.pth.tar', 3.9681777159372964)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-42.pth.tar', 3.999887228012085)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-41.pth.tar', 4.024084409077962)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-40.pth.tar', 4.035571575164795)
+			Total time per epoch: 129.74515471514314
+Train: 45 [   0/78 (  0%)]  Loss:  3.927938 (3.9279)  Time: 5.411s, 3027.99/s  (5.411s, 3027.99/s)  LR: 3.511e-04  Data: 0.956 (0.956)
+Train: 45 [  50/78 ( 65%)]  Loss:  3.914603 (3.9213)  Time: 1.371s, 11951.09/s  (1.823s, 8987.19/s)  LR: 3.453e-04  Data: 0.111 (0.211)
+Train: 45 [  77/78 (100%)]  Loss:  3.923690 (3.9221)  Time: 1.777s, 9220.37/s  (1.679s, 9758.62/s)  LR: 3.421e-04  Data: 0.141 (0.188)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-45.pth.tar', 3.9220770994822183)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-44.pth.tar', 3.946105639139811)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-43.pth.tar', 3.9681777159372964)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-42.pth.tar', 3.999887228012085)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-41.pth.tar', 4.024084409077962)
+			Total time per epoch: 131.96134992316365
+Train: 46 [   0/78 (  0%)]  Loss:  3.937747 (3.9377)  Time: 5.258s, 3115.90/s  (5.258s, 3115.90/s)  LR: 3.420e-04  Data: 1.591 (1.591)
+Train: 46 [  50/78 ( 65%)]  Loss:  3.907088 (3.9224)  Time: 1.345s, 12178.62/s  (1.786s, 9174.70/s)  LR: 3.361e-04  Data: 0.144 (0.207)
+Train: 46 [  77/78 (100%)]  Loss:  3.913249 (3.9194)  Time: 1.708s, 9593.04/s  (1.653s, 9909.10/s)  LR: 3.329e-04  Data: 0.235 (0.188)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-46.pth.tar', 3.9193612734476724)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-45.pth.tar', 3.9220770994822183)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-44.pth.tar', 3.946105639139811)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-43.pth.tar', 3.9681777159372964)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-42.pth.tar', 3.999887228012085)
+			Total time per epoch: 130.1477525709197
+Train: 47 [   0/78 (  0%)]  Loss:  3.906495 (3.9065)  Time: 5.063s, 3236.12/s  (5.063s, 3236.12/s)  LR: 3.328e-04  Data: 1.951 (1.951)
+Train: 47 [  50/78 ( 65%)]  Loss:  3.893935 (3.9002)  Time: 1.382s, 11856.77/s  (1.777s, 9219.45/s)  LR: 3.268e-04  Data: 0.098 (0.245)
+Train: 47 [  77/78 (100%)]  Loss:  3.877979 (3.8928)  Time: 1.745s, 9390.39/s  (1.647s, 9949.94/s)  LR: 3.236e-04  Data: 0.179 (0.207)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-47.pth.tar', 3.8928029537200928)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-46.pth.tar', 3.9193612734476724)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-45.pth.tar', 3.9220770994822183)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-44.pth.tar', 3.946105639139811)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-43.pth.tar', 3.9681777159372964)
+			Total time per epoch: 129.2235872130841
+Train: 48 [   0/78 (  0%)]  Loss:  3.924972 (3.9250)  Time: 5.585s, 2933.49/s  (5.585s, 2933.49/s)  LR: 3.235e-04  Data: 1.079 (1.079)
+Train: 48 [  50/78 ( 65%)]  Loss:  3.921625 (3.9233)  Time: 1.389s, 11797.19/s  (1.773s, 9240.41/s)  LR: 3.176e-04  Data: 0.129 (0.209)
+Train: 48 [  77/78 (100%)]  Loss:  3.891565 (3.9127)  Time: 1.778s, 9216.66/s  (1.645s, 9957.36/s)  LR: 3.144e-04  Data: 0.116 (0.185)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-47.pth.tar', 3.8928029537200928)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-48.pth.tar', 3.912720521291097)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-46.pth.tar', 3.9193612734476724)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-45.pth.tar', 3.9220770994822183)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-44.pth.tar', 3.946105639139811)
+			Total time per epoch: 129.3296432038769
+Train: 49 [   0/78 (  0%)]  Loss:  3.855265 (3.8553)  Time: 5.258s, 3116.09/s  (5.258s, 3116.09/s)  LR: 3.143e-04  Data: 1.631 (1.631)
+Train: 49 [  50/78 ( 65%)]  Loss:  3.879197 (3.8672)  Time: 1.377s, 11894.92/s  (1.770s, 9255.01/s)  LR: 3.083e-04  Data: 0.110 (0.220)
+Train: 49 [  77/78 (100%)]  Loss:  3.878228 (3.8709)  Time: 1.829s, 8956.49/s  (1.649s, 9937.14/s)  LR: 3.051e-04  Data: 0.134 (0.195)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-49.pth.tar', 3.870896657307943)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-47.pth.tar', 3.8928029537200928)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-48.pth.tar', 3.912720521291097)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-46.pth.tar', 3.9193612734476724)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-45.pth.tar', 3.9220770994822183)
+			Total time per epoch: 129.5092481272295
+Train: 50 [   0/78 (  0%)]  Loss:  3.859883 (3.8599)  Time: 5.283s, 3101.02/s  (5.283s, 3101.02/s)  LR: 3.050e-04  Data: 1.546 (1.546)
+Train: 50 [  50/78 ( 65%)]  Loss:  3.850033 (3.8550)  Time: 1.353s, 12112.47/s  (1.760s, 9310.42/s)  LR: 2.991e-04  Data: 0.141 (0.245)
+Train: 50 [  77/78 (100%)]  Loss:  3.823104 (3.8443)  Time: 1.775s, 9229.78/s  (1.635s, 10019.99/s)  LR: 2.959e-04  Data: 0.173 (0.206)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-50.pth.tar', 3.8443400859832764)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-49.pth.tar', 3.870896657307943)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-47.pth.tar', 3.8928029537200928)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-46.pth.tar', 3.9193612734476724)
+			Total time per epoch: 129.51193206571043
+Train: 51 [   0/78 (  0%)]  Loss:  3.849589 (3.8496)  Time: 4.441s, 3689.07/s  (4.441s, 3689.07/s)  LR: 2.957e-04  Data: 1.376 (1.376)
+Train: 51 [  50/78 ( 65%)]  Loss:  3.846932 (3.8483)  Time: 1.367s, 11983.35/s  (1.757s, 9323.60/s)  LR: 2.898e-04  Data: 0.111 (0.214)
+Train: 51 [  77/78 (100%)]  Loss:  3.836090 (3.8442)  Time: 1.742s, 9405.07/s  (1.634s, 10024.80/s)  LR: 2.866e-04  Data: 0.131 (0.187)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-51.pth.tar', 3.8442037105560303)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-50.pth.tar', 3.8443400859832764)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-49.pth.tar', 3.870896657307943)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-47.pth.tar', 3.8928029537200928)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-48.pth.tar', 3.912720521291097)
+			Total time per epoch: 128.62358348164707
+Train: 52 [   0/78 (  0%)]  Loss:  3.855603 (3.8556)  Time: 5.026s, 3259.68/s  (5.026s, 3259.68/s)  LR: 2.865e-04  Data: 2.096 (2.096)
+Train: 52 [  50/78 ( 65%)]  Loss:  3.862905 (3.8593)  Time: 1.311s, 12500.42/s  (1.758s, 9317.93/s)  LR: 2.806e-04  Data: 0.339 (0.230)
+Train: 52 [  77/78 (100%)]  Loss:  3.798320 (3.8389)  Time: 1.701s, 9632.90/s  (1.637s, 10010.82/s)  LR: 2.774e-04  Data: 0.148 (0.201)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-52.pth.tar', 3.838942607243856)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-51.pth.tar', 3.8442037105560303)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-50.pth.tar', 3.8443400859832764)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-49.pth.tar', 3.870896657307943)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-47.pth.tar', 3.8928029537200928)
+			Total time per epoch: 128.4663696307689
+Train: 53 [   0/78 (  0%)]  Loss:  3.813756 (3.8138)  Time: 5.398s, 3035.27/s  (5.398s, 3035.27/s)  LR: 2.772e-04  Data: 1.162 (1.162)
+Train: 53 [  50/78 ( 65%)]  Loss:  3.818979 (3.8164)  Time: 1.350s, 12136.45/s  (1.875s, 8738.58/s)  LR: 2.713e-04  Data: 0.133 (0.213)
+Train: 53 [  77/78 (100%)]  Loss:  3.814240 (3.8157)  Time: 1.783s, 9191.47/s  (1.714s, 9556.24/s)  LR: 2.681e-04  Data: 0.173 (0.189)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-53.pth.tar', 3.8156584103902182)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-52.pth.tar', 3.838942607243856)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-51.pth.tar', 3.8442037105560303)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-50.pth.tar', 3.8443400859832764)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-49.pth.tar', 3.870896657307943)
+			Total time per epoch: 134.55434599984437
+Train: 54 [   0/78 (  0%)]  Loss:  3.812996 (3.8130)  Time: 5.336s, 3070.58/s  (5.336s, 3070.58/s)  LR: 2.680e-04  Data: 0.807 (0.807)
+Train: 54 [  50/78 ( 65%)]  Loss:  3.822101 (3.8175)  Time: 1.379s, 11876.91/s  (1.797s, 9117.88/s)  LR: 2.621e-04  Data: 0.119 (0.206)
+Train: 54 [  77/78 (100%)]  Loss:  3.790832 (3.8086)  Time: 1.746s, 9381.80/s  (1.663s, 9851.40/s)  LR: 2.590e-04  Data: 0.248 (0.185)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-54.pth.tar', 3.808643023173014)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-53.pth.tar', 3.8156584103902182)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-52.pth.tar', 3.838942607243856)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-51.pth.tar', 3.8442037105560303)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-50.pth.tar', 3.8443400859832764)
+			Total time per epoch: 130.54456109181046
+Train: 55 [   0/78 (  0%)]  Loss:  3.795627 (3.7956)  Time: 5.428s, 3018.45/s  (5.428s, 3018.45/s)  LR: 2.589e-04  Data: 1.450 (1.450)
+Train: 55 [  50/78 ( 65%)]  Loss:  3.806792 (3.8012)  Time: 1.319s, 12419.58/s  (1.765s, 9280.42/s)  LR: 2.530e-04  Data: 0.111 (0.184)
+Train: 55 [  77/78 (100%)]  Loss:  3.758598 (3.7870)  Time: 1.692s, 9685.16/s  (1.639s, 9995.40/s)  LR: 2.498e-04  Data: 0.258 (0.170)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-55.pth.tar', 3.7870055039723716)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-54.pth.tar', 3.808643023173014)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-53.pth.tar', 3.8156584103902182)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-52.pth.tar', 3.838942607243856)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-51.pth.tar', 3.8442037105560303)
+			Total time per epoch: 129.08061087783426
+Train: 56 [   0/78 (  0%)]  Loss:  3.791994 (3.7920)  Time: 4.883s, 3355.45/s  (4.883s, 3355.45/s)  LR: 2.497e-04  Data: 1.825 (1.825)
+Train: 56 [  50/78 ( 65%)]  Loss:  3.808347 (3.8002)  Time: 1.321s, 12405.84/s  (1.818s, 9011.59/s)  LR: 2.439e-04  Data: 0.120 (0.295)
+Train: 56 [  77/78 (100%)]  Loss:  3.774248 (3.7915)  Time: 1.793s, 9138.57/s  (1.679s, 9755.74/s)  LR: 2.408e-04  Data: 0.206 (0.241)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-55.pth.tar', 3.7870055039723716)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-56.pth.tar', 3.791529655456543)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-54.pth.tar', 3.808643023173014)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-53.pth.tar', 3.8156584103902182)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-52.pth.tar', 3.838942607243856)
+			Total time per epoch: 131.7687284182757
+Train: 57 [   0/78 (  0%)]  Loss:  3.781619 (3.7816)  Time: 5.388s, 3040.88/s  (5.388s, 3040.88/s)  LR: 2.406e-04  Data: 1.336 (1.336)
+Train: 57 [  50/78 ( 65%)]  Loss:  3.763300 (3.7725)  Time: 1.378s, 11893.00/s  (1.776s, 9227.36/s)  LR: 2.349e-04  Data: 0.129 (0.205)
+Train: 57 [  77/78 (100%)]  Loss:  3.764328 (3.7697)  Time: 1.726s, 9491.22/s  (1.646s, 9954.49/s)  LR: 2.318e-04  Data: 0.170 (0.184)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-57.pth.tar', 3.769749164581299)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-55.pth.tar', 3.7870055039723716)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-56.pth.tar', 3.791529655456543)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-54.pth.tar', 3.808643023173014)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-53.pth.tar', 3.8156584103902182)
+			Total time per epoch: 129.5010027717799
+Train: 58 [   0/78 (  0%)]  Loss:  3.741496 (3.7415)  Time: 5.253s, 3118.72/s  (5.253s, 3118.72/s)  LR: 2.316e-04  Data: 1.883 (1.883)
+Train: 58 [  50/78 ( 65%)]  Loss:  3.759028 (3.7503)  Time: 1.287s, 12727.22/s  (1.874s, 8741.03/s)  LR: 2.259e-04  Data: 0.106 (0.221)
+Train: 58 [  77/78 (100%)]  Loss:  3.725746 (3.7421)  Time: 1.766s, 9277.79/s  (1.711s, 9576.64/s)  LR: 2.228e-04  Data: 0.185 (0.195)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-58.pth.tar', 3.7420899073282876)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-57.pth.tar', 3.769749164581299)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-55.pth.tar', 3.7870055039723716)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-56.pth.tar', 3.791529655456543)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-54.pth.tar', 3.808643023173014)
+			Total time per epoch: 134.19880264997482
+Train: 59 [   0/78 (  0%)]  Loss:  3.773258 (3.7733)  Time: 5.357s, 3058.28/s  (5.357s, 3058.28/s)  LR: 2.227e-04  Data: 0.957 (0.957)
+Train: 59 [  50/78 ( 65%)]  Loss:  3.739346 (3.7563)  Time: 1.403s, 11679.26/s  (1.767s, 9272.93/s)  LR: 2.170e-04  Data: 0.094 (0.254)
+Train: 59 [  77/78 (100%)]  Loss:  3.729525 (3.7474)  Time: 1.776s, 9226.07/s  (1.641s, 9985.82/s)  LR: 2.140e-04  Data: 0.207 (0.214)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-58.pth.tar', 3.7420899073282876)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-59.pth.tar', 3.7473765214284263)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-55.pth.tar', 3.7870055039723716)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-56.pth.tar', 3.791529655456543)
+			Total time per epoch: 128.7108585741371
+Train: 60 [   0/78 (  0%)]  Loss:  3.731789 (3.7318)  Time: 5.328s, 3075.07/s  (5.328s, 3075.07/s)  LR: 2.138e-04  Data: 1.015 (1.015)
+Train: 60 [  50/78 ( 65%)]  Loss:  3.752352 (3.7421)  Time: 1.485s, 11031.70/s  (1.820s, 9000.34/s)  LR: 2.082e-04  Data: 0.087 (0.176)
+Train: 60 [  77/78 (100%)]  Loss:  3.712786 (3.7323)  Time: 1.719s, 9529.24/s  (1.679s, 9757.25/s)  LR: 2.052e-04  Data: 0.167 (0.167)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-60.pth.tar', 3.732309023539225)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-58.pth.tar', 3.7420899073282876)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-59.pth.tar', 3.7473765214284263)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-57.pth.tar', 3.769749164581299)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-55.pth.tar', 3.7870055039723716)
+			Total time per epoch: 131.9313896726817
+Train: 61 [   0/78 (  0%)]  Loss:  3.752569 (3.7526)  Time: 5.282s, 3101.96/s  (5.282s, 3101.96/s)  LR: 2.051e-04  Data: 1.476 (1.476)
+Train: 61 [  50/78 ( 65%)]  Loss:  3.725829 (3.7392)  Time: 1.312s, 12491.85/s  (1.812s, 9041.46/s)  LR: 1.995e-04  Data: 0.115 (0.208)
+Train: 61 [  77/78 (100%)]  Loss:  3.735591 (3.7380)  Time: 1.735s, 9445.47/s  (1.670s, 9810.62/s)  LR: 1.965e-04  Data: 0.161 (0.188)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-60.pth.tar', 3.732309023539225)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-61.pth.tar', 3.737996260325114)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-58.pth.tar', 3.7420899073282876)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-59.pth.tar', 3.7473765214284263)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-57.pth.tar', 3.769749164581299)
+			Total time per epoch: 131.07759543787688
+Train: 62 [   0/78 (  0%)]  Loss:  3.721643 (3.7216)  Time: 5.384s, 3043.02/s  (5.384s, 3043.02/s)  LR: 1.964e-04  Data: 1.135 (1.135)
+Train: 62 [  50/78 ( 65%)]  Loss:  3.721304 (3.7215)  Time: 1.387s, 11812.11/s  (1.811s, 9046.28/s)  LR: 1.909e-04  Data: 0.098 (0.197)
+Train: 62 [  77/78 (100%)]  Loss:  3.722407 (3.7218)  Time: 1.858s, 8818.05/s  (1.678s, 9762.12/s)  LR: 1.880e-04  Data: 0.175 (0.174)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-62.pth.tar', 3.721784512201945)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-60.pth.tar', 3.732309023539225)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-61.pth.tar', 3.737996260325114)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-58.pth.tar', 3.7420899073282876)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-59.pth.tar', 3.7473765214284263)
+			Total time per epoch: 132.04372273385525
+Train: 63 [   0/78 (  0%)]  Loss:  3.699279 (3.6993)  Time: 5.512s, 2972.33/s  (5.512s, 2972.33/s)  LR: 1.878e-04  Data: 2.550 (2.550)
+Train: 63 [  50/78 ( 65%)]  Loss:  3.704313 (3.7018)  Time: 1.352s, 12114.97/s  (1.775s, 9228.39/s)  LR: 1.824e-04  Data: 0.121 (0.219)
+Train: 63 [  77/78 (100%)]  Loss:  3.707201 (3.7036)  Time: 1.713s, 9566.88/s  (1.646s, 9951.13/s)  LR: 1.795e-04  Data: 0.141 (0.194)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-63.pth.tar', 3.7035974661509194)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-62.pth.tar', 3.721784512201945)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-60.pth.tar', 3.732309023539225)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-61.pth.tar', 3.737996260325114)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-58.pth.tar', 3.7420899073282876)
+			Total time per epoch: 129.25509406253695
+Train: 64 [   0/78 (  0%)]  Loss:  3.700443 (3.7004)  Time: 5.287s, 3098.96/s  (5.287s, 3098.96/s)  LR: 1.794e-04  Data: 0.953 (0.953)
+Train: 64 [  50/78 ( 65%)]  Loss:  3.711983 (3.7062)  Time: 1.296s, 12639.79/s  (1.795s, 9126.10/s)  LR: 1.740e-04  Data: 0.130 (0.197)
+Train: 64 [  77/78 (100%)]  Loss:  3.670904 (3.6944)  Time: 2.082s, 7869.16/s  (1.667s, 9830.28/s)  LR: 1.712e-04  Data: 0.226 (0.179)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-64.pth.tar', 3.694443146387736)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-63.pth.tar', 3.7035974661509194)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-62.pth.tar', 3.721784512201945)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-60.pth.tar', 3.732309023539225)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-61.pth.tar', 3.737996260325114)
+			Total time per epoch: 131.10098260454834
+Train: 65 [   0/78 (  0%)]  Loss:  3.690910 (3.6909)  Time: 6.826s, 2400.28/s  (6.826s, 2400.28/s)  LR: 1.711e-04  Data: 2.201 (2.201)
+Train: 65 [  50/78 ( 65%)]  Loss:  3.721378 (3.7061)  Time: 1.381s, 11862.06/s  (1.809s, 9055.26/s)  LR: 1.658e-04  Data: 0.102 (0.235)
+Train: 65 [  77/78 (100%)]  Loss:  3.682460 (3.6982)  Time: 1.711s, 9576.54/s  (1.667s, 9825.82/s)  LR: 1.630e-04  Data: 0.158 (0.204)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-64.pth.tar', 3.694443146387736)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-65.pth.tar', 3.698249419530233)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-63.pth.tar', 3.7035974661509194)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-62.pth.tar', 3.721784512201945)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-60.pth.tar', 3.732309023539225)
+			Total time per epoch: 131.03838802874088
+Train: 66 [   0/78 (  0%)]  Loss:  3.682598 (3.6826)  Time: 5.283s, 3101.33/s  (5.283s, 3101.33/s)  LR: 1.629e-04  Data: 1.489 (1.489)
+Train: 66 [  50/78 ( 65%)]  Loss:  3.686585 (3.6846)  Time: 1.347s, 12165.71/s  (1.771s, 9252.60/s)  LR: 1.577e-04  Data: 0.089 (0.236)
+Train: 66 [  77/78 (100%)]  Loss:  3.671269 (3.6802)  Time: 1.741s, 9411.61/s  (1.645s, 9957.38/s)  LR: 1.549e-04  Data: 0.204 (0.204)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-66.pth.tar', 3.6801506678263345)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-64.pth.tar', 3.694443146387736)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-65.pth.tar', 3.698249419530233)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-63.pth.tar', 3.7035974661509194)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-62.pth.tar', 3.721784512201945)
+			Total time per epoch: 129.2182228192687
+Train: 67 [   0/78 (  0%)]  Loss:  3.682180 (3.6822)  Time: 5.350s, 3062.30/s  (5.350s, 3062.30/s)  LR: 1.548e-04  Data: 1.676 (1.676)
+Train: 67 [  50/78 ( 65%)]  Loss:  3.680642 (3.6814)  Time: 1.354s, 12096.89/s  (1.841s, 8899.05/s)  LR: 1.498e-04  Data: 0.138 (0.229)
+Train: 67 [  77/78 (100%)]  Loss:  3.668316 (3.6770)  Time: 1.774s, 9237.73/s  (1.689s, 9703.10/s)  LR: 1.470e-04  Data: 0.133 (0.198)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-67.pth.tar', 3.677045981089274)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-66.pth.tar', 3.6801506678263345)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-64.pth.tar', 3.694443146387736)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-65.pth.tar', 3.698249419530233)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-63.pth.tar', 3.7035974661509194)
+			Total time per epoch: 133.00399969797581
+Train: 68 [   0/78 (  0%)]  Loss:  3.672477 (3.6725)  Time: 4.848s, 3379.69/s  (4.848s, 3379.69/s)  LR: 1.469e-04  Data: 2.342 (2.342)
+Train: 68 [  50/78 ( 65%)]  Loss:  3.693684 (3.6831)  Time: 1.361s, 12039.52/s  (1.816s, 9019.86/s)  LR: 1.419e-04  Data: 0.123 (0.347)
+Train: 68 [  77/78 (100%)]  Loss:  3.650514 (3.6722)  Time: 1.748s, 9373.06/s  (1.674s, 9788.73/s)  LR: 1.393e-04  Data: 0.144 (0.274)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-68.pth.tar', 3.672225077946981)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-67.pth.tar', 3.677045981089274)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-66.pth.tar', 3.6801506678263345)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-64.pth.tar', 3.694443146387736)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-65.pth.tar', 3.698249419530233)
+			Total time per epoch: 131.69627681281418
+Train: 69 [   0/78 (  0%)]  Loss:  3.675777 (3.6758)  Time: 5.028s, 3258.46/s  (5.028s, 3258.46/s)  LR: 1.392e-04  Data: 2.010 (2.010)
+Train: 69 [  50/78 ( 65%)]  Loss:  3.674142 (3.6750)  Time: 1.339s, 12234.85/s  (1.787s, 9165.94/s)  LR: 1.343e-04  Data: 0.317 (0.245)
+Train: 69 [  77/78 (100%)]  Loss:  3.608038 (3.6527)  Time: 1.783s, 9190.26/s  (1.654s, 9904.01/s)  LR: 1.317e-04  Data: 0.126 (0.207)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-69.pth.tar', 3.6526523431142173)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-68.pth.tar', 3.672225077946981)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-67.pth.tar', 3.677045981089274)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-66.pth.tar', 3.6801506678263345)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-64.pth.tar', 3.694443146387736)
+			Total time per epoch: 130.0026794038713
+Train: 70 [   0/78 (  0%)]  Loss:  3.651082 (3.6511)  Time: 5.309s, 3086.16/s  (5.309s, 3086.16/s)  LR: 1.316e-04  Data: 1.677 (1.677)
+Train: 70 [  50/78 ( 65%)]  Loss:  3.658393 (3.6547)  Time: 1.372s, 11941.58/s  (1.855s, 8832.23/s)  LR: 1.268e-04  Data: 0.166 (0.253)
+Train: 70 [  77/78 (100%)]  Loss:  3.658006 (3.6558)  Time: 1.779s, 9208.11/s  (1.698s, 9650.65/s)  LR: 1.243e-04  Data: 0.134 (0.211)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-69.pth.tar', 3.6526523431142173)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-70.pth.tar', 3.655827045440674)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-68.pth.tar', 3.672225077946981)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-67.pth.tar', 3.677045981089274)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-66.pth.tar', 3.6801506678263345)
+			Total time per epoch: 133.34390680398792
+Train: 71 [   0/78 (  0%)]  Loss:  3.637908 (3.6379)  Time: 5.211s, 3143.91/s  (5.211s, 3143.91/s)  LR: 1.242e-04  Data: 1.399 (1.399)
+Train: 71 [  50/78 ( 65%)]  Loss:  3.685934 (3.6619)  Time: 1.356s, 12081.39/s  (1.867s, 8773.37/s)  LR: 1.195e-04  Data: 0.142 (0.254)
+Train: 71 [  77/78 (100%)]  Loss:  3.639629 (3.6545)  Time: 1.726s, 9492.85/s  (1.705s, 9611.03/s)  LR: 1.171e-04  Data: 0.178 (0.216)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-69.pth.tar', 3.6526523431142173)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-71.pth.tar', 3.654490311940511)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-70.pth.tar', 3.655827045440674)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-68.pth.tar', 3.672225077946981)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-67.pth.tar', 3.677045981089274)
+			Total time per epoch: 133.75816687662154
+Train: 72 [   0/78 (  0%)]  Loss:  3.656272 (3.6563)  Time: 5.346s, 3064.49/s  (5.346s, 3064.49/s)  LR: 1.170e-04  Data: 1.339 (1.339)
+Train: 72 [  50/78 ( 65%)]  Loss:  3.669201 (3.6627)  Time: 1.296s, 12642.15/s  (1.846s, 8876.50/s)  LR: 1.124e-04  Data: 0.097 (0.231)
+Train: 72 [  77/78 (100%)]  Loss:  3.631164 (3.6522)  Time: 2.449s, 6689.19/s  (1.710s, 9584.07/s)  LR: 1.100e-04  Data: 0.187 (0.204)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-72.pth.tar', 3.652212142944336)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-69.pth.tar', 3.6526523431142173)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-71.pth.tar', 3.654490311940511)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-70.pth.tar', 3.655827045440674)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-68.pth.tar', 3.672225077946981)
+			Total time per epoch: 134.1589015983045
+Train: 73 [   0/78 (  0%)]  Loss:  3.634545 (3.6345)  Time: 5.467s, 2997.04/s  (5.467s, 2997.04/s)  LR: 1.099e-04  Data: 0.905 (0.905)
+Train: 73 [  50/78 ( 65%)]  Loss:  3.629696 (3.6321)  Time: 1.345s, 12183.53/s  (1.768s, 9267.08/s)  LR: 1.055e-04  Data: 0.086 (0.210)
+Train: 73 [  77/78 (100%)]  Loss:  3.616865 (3.6270)  Time: 1.705s, 9610.25/s  (1.639s, 9994.28/s)  LR: 1.031e-04  Data: 0.131 (0.187)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-73.pth.tar', 3.62703537940979)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-72.pth.tar', 3.652212142944336)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-69.pth.tar', 3.6526523431142173)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-71.pth.tar', 3.654490311940511)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-70.pth.tar', 3.655827045440674)
+			Total time per epoch: 129.0473480373621
+Train: 74 [   0/78 (  0%)]  Loss:  3.610683 (3.6107)  Time: 8.307s, 1972.31/s  (8.307s, 1972.31/s)  LR: 1.031e-04  Data: 3.462 (3.462)
+Train: 74 [  50/78 ( 65%)]  Loss:  3.622517 (3.6166)  Time: 1.407s, 11645.00/s  (1.815s, 9028.09/s)  LR: 9.877e-05  Data: 0.105 (0.262)
+Train: 74 [  77/78 (100%)]  Loss:  3.618070 (3.6171)  Time: 1.714s, 9557.76/s  (1.667s, 9828.55/s)  LR: 9.649e-05  Data: 0.204 (0.224)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-74.pth.tar', 3.6170899868011475)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-73.pth.tar', 3.62703537940979)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-72.pth.tar', 3.652212142944336)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-69.pth.tar', 3.6526523431142173)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-71.pth.tar', 3.654490311940511)
+			Total time per epoch: 130.844045791775
+Train: 75 [   0/78 (  0%)]  Loss:  3.605824 (3.6058)  Time: 5.192s, 3155.88/s  (5.192s, 3155.88/s)  LR: 9.640e-05  Data: 1.167 (1.167)
+Train: 75 [  50/78 ( 65%)]  Loss:  3.619438 (3.6126)  Time: 1.363s, 12019.78/s  (1.777s, 9220.86/s)  LR: 9.225e-05  Data: 0.110 (0.217)
+Train: 75 [  77/78 (100%)]  Loss:  3.622030 (3.6158)  Time: 1.777s, 9219.99/s  (1.644s, 9965.31/s)  LR: 9.004e-05  Data: 0.186 (0.196)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-75.pth.tar', 3.615764061609904)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-74.pth.tar', 3.6170899868011475)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-73.pth.tar', 3.62703537940979)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-72.pth.tar', 3.652212142944336)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-69.pth.tar', 3.6526523431142173)
+			Total time per epoch: 129.3216303223744
+Train: 76 [   0/78 (  0%)]  Loss:  3.624141 (3.6241)  Time: 5.012s, 3269.23/s  (5.012s, 3269.23/s)  LR: 8.995e-05  Data: 1.698 (1.698)
+Train: 76 [  50/78 ( 65%)]  Loss:  3.619203 (3.6217)  Time: 1.349s, 12141.35/s  (1.804s, 9083.50/s)  LR: 8.593e-05  Data: 0.124 (0.256)
+Train: 76 [  77/78 (100%)]  Loss:  3.600781 (3.6147)  Time: 2.573s, 6368.88/s  (1.681s, 9748.37/s)  LR: 8.380e-05  Data: 0.242 (0.220)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-76.pth.tar', 3.6147082646687827)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-75.pth.tar', 3.615764061609904)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-74.pth.tar', 3.6170899868011475)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-73.pth.tar', 3.62703537940979)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-72.pth.tar', 3.652212142944336)
+			Total time per epoch: 131.9162774560973
+Train: 77 [   0/78 (  0%)]  Loss:  3.598615 (3.5986)  Time: 5.349s, 3062.72/s  (5.349s, 3062.72/s)  LR: 8.372e-05  Data: 0.994 (0.994)
+Train: 77 [  50/78 ( 65%)]  Loss:  3.645912 (3.6223)  Time: 1.314s, 12466.21/s  (1.772s, 9248.04/s)  LR: 7.983e-05  Data: 0.098 (0.188)
+Train: 77 [  77/78 (100%)]  Loss:  3.569957 (3.6048)  Time: 1.783s, 9187.22/s  (1.648s, 9941.74/s)  LR: 7.777e-05  Data: 0.273 (0.174)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-77.pth.tar', 3.604827801386515)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-76.pth.tar', 3.6147082646687827)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-75.pth.tar', 3.615764061609904)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-74.pth.tar', 3.6170899868011475)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-73.pth.tar', 3.62703537940979)
+			Total time per epoch: 129.67503573559225
+Train: 78 [   0/78 (  0%)]  Loss:  3.598129 (3.5981)  Time: 4.932s, 3321.98/s  (4.932s, 3321.98/s)  LR: 7.770e-05  Data: 1.837 (1.837)
+Train: 78 [  50/78 ( 65%)]  Loss:  3.613935 (3.6060)  Time: 1.322s, 12391.75/s  (1.784s, 9182.06/s)  LR: 7.396e-05  Data: 0.126 (0.218)
+Train: 78 [  77/78 (100%)]  Loss:  3.552145 (3.5881)  Time: 1.808s, 9061.74/s  (1.655s, 9900.60/s)  LR: 7.198e-05  Data: 0.145 (0.195)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-78.pth.tar', 3.5880696773529053)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-77.pth.tar', 3.604827801386515)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-76.pth.tar', 3.6147082646687827)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-75.pth.tar', 3.615764061609904)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-74.pth.tar', 3.6170899868011475)
+			Total time per epoch: 130.10570332501084
+Train: 79 [   0/78 (  0%)]  Loss:  3.584314 (3.5843)  Time: 5.126s, 3196.25/s  (5.126s, 3196.25/s)  LR: 7.190e-05  Data: 1.932 (1.932)
+Train: 79 [  50/78 ( 65%)]  Loss:  3.604308 (3.5943)  Time: 1.306s, 12541.45/s  (1.752s, 9352.56/s)  LR: 6.831e-05  Data: 0.133 (0.197)
+Train: 79 [  77/78 (100%)]  Loss:  3.602023 (3.5969)  Time: 1.723s, 9507.53/s  (1.635s, 10022.58/s)  LR: 6.641e-05  Data: 0.157 (0.179)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-78.pth.tar', 3.5880696773529053)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-79.pth.tar', 3.5968817869822183)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-77.pth.tar', 3.604827801386515)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-76.pth.tar', 3.6147082646687827)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-75.pth.tar', 3.615764061609904)
+			Total time per epoch: 128.2440195484087
+Train: 80 [   0/78 (  0%)]  Loss:  3.599318 (3.5993)  Time: 5.157s, 3176.98/s  (5.157s, 3176.98/s)  LR: 6.634e-05  Data: 0.971 (0.971)
+Train: 80 [  50/78 ( 65%)]  Loss:  3.611158 (3.6052)  Time: 1.407s, 11648.24/s  (1.776s, 9223.18/s)  LR: 6.290e-05  Data: 0.133 (0.218)
+Train: 80 [  77/78 (100%)]  Loss:  3.577144 (3.5959)  Time: 2.274s, 7204.46/s  (1.658s, 9884.60/s)  LR: 6.108e-05  Data: 0.145 (0.191)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-78.pth.tar', 3.5880696773529053)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-80.pth.tar', 3.5958735148111978)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-79.pth.tar', 3.5968817869822183)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-77.pth.tar', 3.604827801386515)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-76.pth.tar', 3.6147082646687827)
+			Total time per epoch: 130.1837756857276
+Train: 81 [   0/78 (  0%)]  Loss:  3.579865 (3.5799)  Time: 6.239s, 2625.95/s  (6.239s, 2625.95/s)  LR: 6.101e-05  Data: 1.441 (1.441)
+Train: 81 [  50/78 ( 65%)]  Loss:  3.565601 (3.5727)  Time: 1.333s, 12289.43/s  (1.821s, 8995.75/s)  LR: 5.772e-05  Data: 0.095 (0.257)
+Train: 81 [  77/78 (100%)]  Loss:  3.568377 (3.5713)  Time: 1.782s, 9193.74/s  (1.679s, 9759.01/s)  LR: 5.599e-05  Data: 0.155 (0.220)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-81.pth.tar', 3.5712809562683105)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-78.pth.tar', 3.5880696773529053)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-80.pth.tar', 3.5958735148111978)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-79.pth.tar', 3.5968817869822183)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-77.pth.tar', 3.604827801386515)
+			Total time per epoch: 131.82371157035232
+Train: 82 [   0/78 (  0%)]  Loss:  3.569237 (3.5692)  Time: 5.045s, 3247.77/s  (5.045s, 3247.77/s)  LR: 5.592e-05  Data: 1.741 (1.741)
+Train: 82 [  50/78 ( 65%)]  Loss:  3.590424 (3.5798)  Time: 1.357s, 12070.82/s  (1.836s, 8922.38/s)  LR: 5.279e-05  Data: 0.119 (0.273)
+Train: 82 [  77/78 (100%)]  Loss:  3.564524 (3.5747)  Time: 1.783s, 9188.34/s  (1.684s, 9728.18/s)  LR: 5.114e-05  Data: 0.163 (0.228)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-81.pth.tar', 3.5712809562683105)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-82.pth.tar', 3.5747283299764)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-78.pth.tar', 3.5880696773529053)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-80.pth.tar', 3.5958735148111978)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-79.pth.tar', 3.5968817869822183)
+			Total time per epoch: 132.46103260386735
+Train: 83 [   0/78 (  0%)]  Loss:  3.570920 (3.5709)  Time: 5.006s, 3272.73/s  (5.006s, 3272.73/s)  LR: 5.108e-05  Data: 1.876 (1.876)
+Train: 83 [  50/78 ( 65%)]  Loss:  3.593860 (3.5824)  Time: 1.365s, 11998.75/s  (1.928s, 8497.50/s)  LR: 4.811e-05  Data: 0.094 (0.227)
+Train: 83 [  77/78 (100%)]  Loss:  3.578022 (3.5809)  Time: 1.806s, 9070.27/s  (1.748s, 9372.25/s)  LR: 4.655e-05  Data: 0.148 (0.196)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-81.pth.tar', 3.5712809562683105)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-82.pth.tar', 3.5747283299764)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-83.pth.tar', 3.5809340476989746)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-78.pth.tar', 3.5880696773529053)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-80.pth.tar', 3.5958735148111978)
+			Total time per epoch: 137.072508322075
+Train: 84 [   0/78 (  0%)]  Loss:  3.565102 (3.5651)  Time: 5.825s, 2812.47/s  (5.825s, 2812.47/s)  LR: 4.649e-05  Data: 0.849 (0.849)
+Train: 84 [  50/78 ( 65%)]  Loss:  3.575831 (3.5705)  Time: 1.542s, 10625.76/s  (1.780s, 9202.28/s)  LR: 4.368e-05  Data: 0.150 (0.229)
+Train: 84 [  77/78 (100%)]  Loss:  3.588909 (3.5766)  Time: 1.714s, 9561.39/s  (1.649s, 9933.97/s)  LR: 4.221e-05  Data: 0.111 (0.199)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-81.pth.tar', 3.5712809562683105)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-82.pth.tar', 3.5747283299764)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-84.pth.tar', 3.5766138235727944)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-83.pth.tar', 3.5809340476989746)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-78.pth.tar', 3.5880696773529053)
+			Total time per epoch: 129.5655475948006
+Train: 85 [   0/78 (  0%)]  Loss:  3.564527 (3.5645)  Time: 5.289s, 3098.01/s  (5.289s, 3098.01/s)  LR: 4.215e-05  Data: 1.300 (1.300)
+Train: 85 [  50/78 ( 65%)]  Loss:  3.575587 (3.5701)  Time: 1.353s, 12109.14/s  (1.769s, 9263.62/s)  LR: 3.951e-05  Data: 0.112 (0.187)
+Train: 85 [  77/78 (100%)]  Loss:  3.564351 (3.5682)  Time: 1.738s, 9428.62/s  (1.642s, 9976.10/s)  LR: 3.813e-05  Data: 0.148 (0.170)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-85.pth.tar', 3.5681548913319907)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-81.pth.tar', 3.5712809562683105)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-82.pth.tar', 3.5747283299764)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-84.pth.tar', 3.5766138235727944)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-83.pth.tar', 3.5809340476989746)
+			Total time per epoch: 129.22105869092047
+Train: 86 [   0/78 (  0%)]  Loss:  3.558180 (3.5582)  Time: 5.058s, 3239.45/s  (5.058s, 3239.45/s)  LR: 3.808e-05  Data: 1.758 (1.758)
+Train: 86 [  50/78 ( 65%)]  Loss:  3.575317 (3.5667)  Time: 1.313s, 12474.99/s  (1.795s, 9125.78/s)  LR: 3.560e-05  Data: 0.132 (0.252)
+Train: 86 [  77/78 (100%)]  Loss:  3.551943 (3.5618)  Time: 1.767s, 9269.61/s  (1.662s, 9855.73/s)  LR: 3.431e-05  Data: 0.142 (0.214)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-86.pth.tar', 3.5618134339650473)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-85.pth.tar', 3.5681548913319907)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-81.pth.tar', 3.5712809562683105)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-82.pth.tar', 3.5747283299764)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-84.pth.tar', 3.5766138235727944)
+			Total time per epoch: 130.46148442849517
+Train: 87 [   0/78 (  0%)]  Loss:  3.576026 (3.5760)  Time: 5.465s, 2998.02/s  (5.465s, 2998.02/s)  LR: 3.426e-05  Data: 1.300 (1.300)
+Train: 87 [  50/78 ( 65%)]  Loss:  3.584252 (3.5801)  Time: 1.359s, 12055.45/s  (1.837s, 8918.14/s)  LR: 3.196e-05  Data: 0.120 (0.185)
+Train: 87 [  77/78 (100%)]  Loss:  3.565943 (3.5754)  Time: 1.758s, 9318.42/s  (1.690s, 9696.82/s)  LR: 3.076e-05  Data: 0.117 (0.172)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-86.pth.tar', 3.5618134339650473)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-85.pth.tar', 3.5681548913319907)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-81.pth.tar', 3.5712809562683105)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-82.pth.tar', 3.5747283299764)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-87.pth.tar', 3.5754074255625405)
+			Total time per epoch: 132.8669452490285
+Train: 88 [   0/78 (  0%)]  Loss:  3.547071 (3.5471)  Time: 5.088s, 3219.82/s  (5.088s, 3219.82/s)  LR: 3.072e-05  Data: 1.864 (1.864)
+Train: 88 [  50/78 ( 65%)]  Loss:  3.593676 (3.5704)  Time: 1.339s, 12233.75/s  (1.771s, 9250.80/s)  LR: 2.858e-05  Data: 0.137 (0.238)
+Train: 88 [  77/78 (100%)]  Loss:  3.558411 (3.5664)  Time: 1.718s, 9534.99/s  (1.640s, 9987.22/s)  LR: 2.748e-05  Data: 0.212 (0.207)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-86.pth.tar', 3.5618134339650473)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-88.pth.tar', 3.566386063893636)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-85.pth.tar', 3.5681548913319907)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-81.pth.tar', 3.5712809562683105)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-82.pth.tar', 3.5747283299764)
+			Total time per epoch: 128.76131873112172
+Train: 89 [   0/78 (  0%)]  Loss:  3.560798 (3.5608)  Time: 5.170s, 3168.77/s  (5.170s, 3168.77/s)  LR: 2.744e-05  Data: 1.076 (1.076)
+Train: 89 [  50/78 ( 65%)]  Loss:  3.562740 (3.5618)  Time: 1.355s, 12088.38/s  (1.854s, 8835.21/s)  LR: 2.548e-05  Data: 0.107 (0.254)
+Train: 89 [  77/78 (100%)]  Loss:  3.551776 (3.5584)  Time: 1.761s, 9304.65/s  (1.695s, 9665.19/s)  LR: 2.448e-05  Data: 0.161 (0.218)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-89.pth.tar', 3.5584379037221274)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-86.pth.tar', 3.5618134339650473)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-88.pth.tar', 3.566386063893636)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-85.pth.tar', 3.5681548913319907)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-81.pth.tar', 3.5712809562683105)
+			Total time per epoch: 133.06005097460002
+Train: 90 [   0/78 (  0%)]  Loss:  3.570853 (3.5709)  Time: 5.268s, 3110.09/s  (5.268s, 3110.09/s)  LR: 2.444e-05  Data: 1.277 (1.277)
+Train: 90 [  50/78 ( 65%)]  Loss:  3.606751 (3.5888)  Time: 1.296s, 12642.87/s  (1.765s, 9282.16/s)  LR: 2.266e-05  Data: 0.118 (0.221)
+Train: 90 [  77/78 (100%)]  Loss:  3.533508 (3.5704)  Time: 1.772s, 9247.89/s  (1.642s, 9975.41/s)  LR: 2.175e-05  Data: 0.281 (0.194)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-89.pth.tar', 3.5584379037221274)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-86.pth.tar', 3.5618134339650473)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-88.pth.tar', 3.566386063893636)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-85.pth.tar', 3.5681548913319907)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-90.pth.tar', 3.570370674133301)
+			Total time per epoch: 129.01859379559755
+Train: 91 [   0/78 (  0%)]  Loss:  3.547818 (3.5478)  Time: 5.159s, 3175.89/s  (5.159s, 3175.89/s)  LR: 2.171e-05  Data: 1.437 (1.437)
+Train: 91 [  50/78 ( 65%)]  Loss:  3.574566 (3.5612)  Time: 1.411s, 11609.14/s  (1.760s, 9311.39/s)  LR: 2.011e-05  Data: 0.124 (0.219)
+Train: 91 [  77/78 (100%)]  Loss:  3.551970 (3.5581)  Time: 1.683s, 9735.54/s  (1.644s, 9967.40/s)  LR: 1.930e-05  Data: 0.164 (0.192)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-91.pth.tar', 3.558117628097534)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-89.pth.tar', 3.5584379037221274)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-86.pth.tar', 3.5618134339650473)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-88.pth.tar', 3.566386063893636)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-85.pth.tar', 3.5681548913319907)
+			Total time per epoch: 129.36616177950054
+Train: 92 [   0/78 (  0%)]  Loss:  3.571266 (3.5713)  Time: 4.834s, 3389.33/s  (4.834s, 3389.33/s)  LR: 1.927e-05  Data: 1.873 (1.873)
+Train: 92 [  50/78 ( 65%)]  Loss:  3.565656 (3.5685)  Time: 1.343s, 12199.04/s  (1.788s, 9161.13/s)  LR: 1.785e-05  Data: 0.131 (0.222)
+Train: 92 [  77/78 (100%)]  Loss:  3.544916 (3.5606)  Time: 2.220s, 7380.09/s  (1.661s, 9861.57/s)  LR: 1.713e-05  Data: 0.552 (0.200)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-91.pth.tar', 3.558117628097534)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-89.pth.tar', 3.5584379037221274)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-92.pth.tar', 3.560612599054972)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-86.pth.tar', 3.5618134339650473)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-88.pth.tar', 3.566386063893636)
+			Total time per epoch: 130.84157932270318
+Train: 93 [   0/78 (  0%)]  Loss:  3.538951 (3.5390)  Time: 5.830s, 2810.30/s  (5.830s, 2810.30/s)  LR: 1.710e-05  Data: 4.058 (4.058)
+Train: 93 [  50/78 ( 65%)]  Loss:  3.573740 (3.5563)  Time: 1.364s, 12016.05/s  (1.797s, 9119.47/s)  LR: 1.587e-05  Data: 0.092 (0.286)
+Train: 93 [  77/78 (100%)]  Loss:  3.537317 (3.5500)  Time: 1.783s, 9191.47/s  (1.658s, 9884.70/s)  LR: 1.525e-05  Data: 0.166 (0.238)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-93.pth.tar', 3.5500027338663735)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-91.pth.tar', 3.558117628097534)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-89.pth.tar', 3.5584379037221274)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-92.pth.tar', 3.560612599054972)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-86.pth.tar', 3.5618134339650473)
+			Total time per epoch: 130.46359294839203
+Train: 94 [   0/78 (  0%)]  Loss:  3.547126 (3.5471)  Time: 5.000s, 3276.57/s  (5.000s, 3276.57/s)  LR: 1.523e-05  Data: 1.843 (1.843)
+Train: 94 [  50/78 ( 65%)]  Loss:  3.568713 (3.5579)  Time: 1.361s, 12041.00/s  (1.778s, 9213.05/s)  LR: 1.417e-05  Data: 0.122 (0.243)
+Train: 94 [  77/78 (100%)]  Loss:  3.555223 (3.5570)  Time: 1.824s, 8980.43/s  (1.648s, 9940.58/s)  LR: 1.365e-05  Data: 0.203 (0.211)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-93.pth.tar', 3.5500027338663735)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-94.pth.tar', 3.557020425796509)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-91.pth.tar', 3.558117628097534)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-89.pth.tar', 3.5584379037221274)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-92.pth.tar', 3.560612599054972)
+			Total time per epoch: 129.55014562420547
+Train: 95 [   0/78 (  0%)]  Loss:  3.526098 (3.5261)  Time: 5.234s, 3130.46/s  (5.234s, 3130.46/s)  LR: 1.363e-05  Data: 1.610 (1.610)
+Train: 95 [  50/78 ( 65%)]  Loss:  3.572545 (3.5493)  Time: 1.330s, 12321.58/s  (1.758s, 9320.25/s)  LR: 1.276e-05  Data: 0.107 (0.215)
+Train: 95 [  77/78 (100%)]  Loss:  3.533440 (3.5440)  Time: 1.733s, 9455.88/s  (1.634s, 10025.25/s)  LR: 1.234e-05  Data: 0.279 (0.190)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-95.pth.tar', 3.54402748743693)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-93.pth.tar', 3.5500027338663735)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-94.pth.tar', 3.557020425796509)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-91.pth.tar', 3.558117628097534)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-89.pth.tar', 3.5584379037221274)
+			Total time per epoch: 128.38817274011672
+Train: 96 [   0/78 (  0%)]  Loss:  3.523628 (3.5236)  Time: 5.096s, 3214.86/s  (5.096s, 3214.86/s)  LR: 1.233e-05  Data: 1.510 (1.510)
+Train: 96 [  50/78 ( 65%)]  Loss:  3.579883 (3.5518)  Time: 1.337s, 12251.02/s  (1.829s, 8958.05/s)  LR: 1.164e-05  Data: 0.112 (0.226)
+Train: 96 [  77/78 (100%)]  Loss:  3.522815 (3.5421)  Time: 1.779s, 9207.73/s  (1.681s, 9744.45/s)  LR: 1.132e-05  Data: 0.125 (0.198)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-96.pth.tar', 3.5421084562937417)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-95.pth.tar', 3.54402748743693)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-93.pth.tar', 3.5500027338663735)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-94.pth.tar', 3.557020425796509)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-91.pth.tar', 3.558117628097534)
+			Total time per epoch: 132.88721327390522
+Train: 97 [   0/78 (  0%)]  Loss:  3.555903 (3.5559)  Time: 4.338s, 3777.22/s  (4.338s, 3777.22/s)  LR: 1.131e-05  Data: 1.894 (1.894)
+Train: 97 [  50/78 ( 65%)]  Loss:  3.553989 (3.5549)  Time: 1.583s, 10350.86/s  (1.850s, 8856.96/s)  LR: 1.081e-05  Data: 0.100 (0.229)
+Train: 97 [  77/78 (100%)]  Loss:  3.543530 (3.5511)  Time: 1.720s, 9525.92/s  (1.696s, 9658.31/s)  LR: 1.059e-05  Data: 0.323 (0.205)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-96.pth.tar', 3.5421084562937417)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-95.pth.tar', 3.54402748743693)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-93.pth.tar', 3.5500027338663735)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-97.pth.tar', 3.551140626271566)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-94.pth.tar', 3.557020425796509)
+			Total time per epoch: 133.74328844901174
+Train: 98 [   0/78 (  0%)]  Loss:  3.547537 (3.5475)  Time: 4.451s, 3680.58/s  (4.451s, 3680.58/s)  LR: 1.058e-05  Data: 2.233 (2.233)
+Train: 98 [  50/78 ( 65%)]  Loss:  3.565322 (3.5564)  Time: 1.370s, 11962.05/s  (1.890s, 8671.04/s)  LR: 1.027e-05  Data: 0.121 (0.283)
+Train: 98 [  77/78 (100%)]  Loss:  3.526775 (3.5465)  Time: 1.802s, 9090.50/s  (1.722s, 9511.88/s)  LR: 1.015e-05  Data: 0.235 (0.240)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-96.pth.tar', 3.5421084562937417)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-95.pth.tar', 3.54402748743693)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-98.pth.tar', 3.5465447902679443)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-93.pth.tar', 3.5500027338663735)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-97.pth.tar', 3.551140626271566)
+			Total time per epoch: 135.25735559966415
+Train: 99 [   0/78 (  0%)]  Loss:  3.559597 (3.5596)  Time: 5.155s, 3178.36/s  (5.155s, 3178.36/s)  LR: 1.015e-05  Data: 1.759 (1.759)
+Train: 99 [  50/78 ( 65%)]  Loss:  3.552174 (3.5559)  Time: 1.384s, 11837.96/s  (1.771s, 9252.79/s)  LR: 1.002e-05  Data: 0.131 (0.233)
+Train: 99 [  77/78 (100%)]  Loss:  3.539372 (3.5504)  Time: 1.753s, 9344.20/s  (1.643s, 9973.46/s)  LR: 1.000e-05  Data: 0.159 (0.204)
+Current checkpoints:
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-96.pth.tar', 3.5421084562937417)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-95.pth.tar', 3.54402748743693)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-98.pth.tar', 3.5465447902679443)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-93.pth.tar', 3.5500027338663735)
+ ('/home/hp190122/u01961/working/deepL/transformer/timm_main_sora/checkpoint/tiny/imnet1k/pre_training/pretrain_deit_tiny_imnet1k_lr6.0e-4_epochs100_bs16384_cpu2048/checkpoint-99.pth.tar', 3.5503809452056885)
+			Total time per epoch: 129.57747205905616
+*** Best metric: 3.5421084562937417 (epoch 96)

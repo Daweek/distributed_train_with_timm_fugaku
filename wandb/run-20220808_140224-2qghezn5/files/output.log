@@ -1,0 +1,26 @@
+Model vit_deit_tiny_patch16_224 created, param count:5717416
+Data processing configuration for current model + dataset:
+	input_size: (3, 224, 224)
+	interpolation: bicubic
+	mean: (0.485, 0.456, 0.406)
+	std: (0.229, 0.224, 0.225)
+	crop_pct: 0.9
+AMP not enabled. Training in float32.
+Using native Torch DistributedDataParallel.
+iter per epoch: 20018
+Scheduled iters: 40036
+Scheduled epochs: 2
+/home/hp190122/u01961/venv/lib/python3.9/site-packages/torchvision-0.11.0a0+fa347eb-py3.9-linux-aarch64.egg/torchvision/transforms/functional.py:404: UserWarning: Argument interpolation should be of type InterpolationMode instead of int. Please, use InterpolationMode enum.
+  warnings.warn(
+=> Loading DataSet with WebDataset using .tars
+dataset_size:1281167, batch_size:8, world_size(Total Devices):8
+----> Number of batches to be processed per CPU = 20018
+Train: 0 [   0/20018 (  0%)]  Loss:  6.989403 (6.9894)  Time: 2.895s,   22.11/s  (2.895s,   22.11/s)  LR: 1.000e-04  Data: 1.704 (1.704)
+Reducer buckets have been rebuilt in this iteration.
+Train: 0 [  50/20018 (  0%)]  Loss:  6.870547 (6.9300)  Time: 1.012s,   63.26/s  (1.140s,   56.12/s)  LR: 1.039e-04  Data: 0.303 (0.393)
+Train: 0 [ 100/20018 (  0%)]  Loss:  6.934937 (6.9316)  Time: 0.877s,   73.01/s  (1.128s,   56.73/s)  LR: 1.079e-04  Data: 0.314 (0.370)
+Train: 0 [ 150/20018 (  1%)]  Loss:  6.912529 (6.9269)  Time: 1.068s,   59.92/s  (1.115s,   57.41/s)  LR: 1.118e-04  Data: 0.222 (0.356)
+Train: 0 [ 200/20018 (  1%)]  Loss:  6.887323 (6.9189)  Time: 0.973s,   65.79/s  (1.107s,   57.82/s)  LR: 1.158e-04  Data: 0.250 (0.353)
+Train: 0 [ 250/20018 (  1%)]  Loss:  6.938060 (6.9221)  Time: 1.057s,   60.52/s  (1.102s,   58.07/s)  LR: 1.197e-04  Data: 0.313 (0.349)
+Train: 0 [ 300/20018 (  1%)]  Loss:  6.902961 (6.9194)  Time: 1.063s,   60.23/s  (1.103s,   58.00/s)  LR: 1.237e-04  Data: 0.395 (0.346)
+Train: 0 [ 350/20018 (  2%)]  Loss:  6.834488 (6.9088)  Time: 1.055s,   60.66/s  (1.102s,   58.08/s)  LR: 1.276e-04  Data: 0.371 (0.342)
