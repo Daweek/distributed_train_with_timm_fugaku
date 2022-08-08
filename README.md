@@ -1,10 +1,7 @@
 # Requirements
 
-* Python 3 (worked at 3.8.2)
-* OpenMPI 4.0.5
-* CUDA Toolkit 10.2
-* cuDNN 8.0
-* NCCL 2.7
+* Python 3 (worked at 3.9.0)
+* PyTorch 1.10 build for Fugaku
 ​
 
 please install packages with the command.
